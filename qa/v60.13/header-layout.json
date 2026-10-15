@@ -1,0 +1,1136 @@
+[
+  {
+    "width": 375,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 375,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 375,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 375,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 375,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 375,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 390,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 430,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 600,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 768,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 820,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 900,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 901,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1024,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1199,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1200,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1228,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1366,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1399,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1400,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1440,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1599,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1600,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1700,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1897,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "guest-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "AlexandriaWithAnExceptionallyLongName-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "Jinjua-open.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "guest-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  },
+  {
+    "width": 1920,
+    "fixture": "Jinjua-closed.html",
+    "fits": true,
+    "actionFits": true,
+    "brandFits": true,
+    "navFits": true,
+    "navNoOverlap": true
+  }
+]

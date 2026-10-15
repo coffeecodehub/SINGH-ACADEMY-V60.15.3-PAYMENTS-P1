@@ -1,0 +1,20 @@
+{
+  "scope": "Registration only, not execution",
+  "originalCases": 41,
+  "updatedCases": 44,
+  "removedCases": [],
+  "addedCases": [
+    {
+      "file": "payments-v60-12.spec.ts",
+      "name": "delayed creation is observed before approval and still settles exactly one order"
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "name": "synthetic paypal document preserves UTF-8 heading and both return links"
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "name": "synthetic stripe document preserves UTF-8 heading and both return links"
+    }
+  ]
+}

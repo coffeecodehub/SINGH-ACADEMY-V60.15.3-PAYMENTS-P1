@@ -1,0 +1,9 @@
+
+> singh-academy@60.11.0 test:auth-browser
+> npm --prefix frontend run test:auth-browser
+
+
+> singh-academy-frontend@60.11.0 test:auth-browser
+> playwright test -c playwright.ui.config.ts auth-hydration-v60-11.spec.ts
+
+error: unknown command 'test'

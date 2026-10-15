@@ -1,0 +1,65 @@
+{
+  "scope": "Controlled Chromium documents execute the actual helper with an expect.poll adapter; not Next.js or project Playwright Test",
+  "node": "v22.16.0",
+  "browser": "144.0.7559.96",
+  "startedAt": "2026-10-04T07:57:22.810Z",
+  "cases": [
+    {
+      "name": "hidden SSR copy plus single visible guest header passes",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 163
+    },
+    {
+      "name": "display:none ancestor plus live header passes without DOM removal",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 72
+    },
+    {
+      "name": "root-to-login redirect during readiness reselects login controls",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 69
+    },
+    {
+      "name": "persistent two visible headers FAIL the helper at unchanged 5s deadline",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 67
+    },
+    {
+      "name": "visible old-account controls rejected even at public landing URL",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 65
+    },
+    {
+      "name": "login cannot substitute for explicitly expected logout landing",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/login?next=%2Fteam\nCall log:\n  - navigating to \"http://127.0.0.1:3108/login?next=%2Fteam\", waiting until \"load\"\n",
+      "ms": 67
+    },
+    {
+      "name": "same-origin guest reload attaches listeners before navigation and settles",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 70
+    },
+    {
+      "name": "duplicate visible login forms rejected rather than selecting first",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/login\nCall log:\n  - navigating to \"http://127.0.0.1:3108/login\", waiting until \"load\"\n",
+      "ms": 71
+    },
+    {
+      "name": "20 delayed root-to-login observation repetitions settle on intended login",
+      "status": "failed",
+      "message": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:3108/\nCall log:\n  - navigating to \"http://127.0.0.1:3108/\", waiting until \"load\"\n",
+      "ms": 71
+    }
+  ],
+  "finishedAt": "2026-10-04T07:57:23.668Z",
+  "passed": 0,
+  "failed": 9
+}

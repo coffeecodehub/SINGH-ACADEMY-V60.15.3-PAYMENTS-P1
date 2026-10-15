@@ -1,0 +1,1 @@
+Sample certificate PDF created at /mnt/data/v608_work/qa/certificate-sample.pdf

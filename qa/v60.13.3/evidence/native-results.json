@@ -1,0 +1,271 @@
+{
+  "kind": "isolated offline DOM-only native Chromium setContent; actual JSX/CSS, controlled DOM bridge, profile intent only; NOT Next or route navigation. Loopback navigation was blocked by administrator policy.",
+  "browser": "144.0.7559.96",
+  "originalReproductions": [
+    {
+      "width": 390,
+      "reproduced": true,
+      "message": "TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 1374.5679999999998ms exceeded.\nCall log:\n  - attempting scroll into view action\n    2 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n    - waiting 20ms\n    2 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n      - waiting 100ms\n    3 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n      - waiting 500ms\n"
+    },
+    {
+      "width": 1440,
+      "reproduced": true,
+      "message": "TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 1378.73ms exceeded.\nCall log:\n  - attempting scroll into view action\n    2 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n    - waiting 20ms\n    2 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n      - waiting 100ms\n    2 × waiting for element to be stable\n      - element is not stable\n    - retrying scroll into view action\n      - waiting 500ms\n"
+    }
+  ],
+  "cases": [
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 1,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 363
+    },
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 1,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 362
+    },
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 1,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 366
+    },
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 438
+    },
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 9",
+        "Preview Faculty 9",
+        "Preview Faculty 9"
+      ],
+      "ms": 354
+    },
+    {
+      "width": 390,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 17",
+        "Preview Faculty 17",
+        "Preview Faculty 17"
+      ],
+      "ms": 371
+    },
+    {
+      "width": 820,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 2",
+        "Preview Faculty 2",
+        "Preview Faculty 2"
+      ],
+      "ms": 375
+    },
+    {
+      "width": 820,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 10",
+        "Preview Faculty 10",
+        "Preview Faculty 10"
+      ],
+      "ms": 349
+    },
+    {
+      "width": 820,
+      "height": 940,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 17",
+        "Preview Faculty 17",
+        "Preview Faculty 17"
+      ],
+      "ms": 352
+    },
+    {
+      "width": 844,
+      "height": 500,
+      "input": "touch",
+      "members": 17,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 2",
+        "Preview Faculty 2",
+        "Preview Faculty 2"
+      ],
+      "ms": 358
+    },
+    {
+      "width": 844,
+      "height": 500,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 10",
+        "Preview Faculty 10",
+        "Preview Faculty 10"
+      ],
+      "ms": 348
+    },
+    {
+      "width": 844,
+      "height": 500,
+      "input": "touch",
+      "members": 17,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 17",
+        "Preview Faculty 17",
+        "Preview Faculty 1"
+      ],
+      "ms": 368
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 1,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 1112
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 1,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 1115
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 1,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 611
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 17,
+      "phase": 0,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 2",
+        "Preview Faculty 3",
+        "Preview Faculty 2"
+      ],
+      "ms": 616
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 17,
+      "phase": 0.48,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 10",
+        "Preview Faculty 10",
+        "Preview Faculty 10"
+      ],
+      "ms": 681
+    },
+    {
+      "width": 1440,
+      "height": 940,
+      "input": "mouse",
+      "members": 17,
+      "phase": 0.93,
+      "passed": true,
+      "openedNames": [
+        "Preview Faculty 1",
+        "Preview Faculty 1",
+        "Preview Faculty 1"
+      ],
+      "ms": 1102
+    }
+  ],
+  "passed": true
+}

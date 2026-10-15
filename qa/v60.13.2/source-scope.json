@@ -1,0 +1,43 @@
+{
+  "base": "60.13.1",
+  "updated": "60.13.2",
+  "changedExistingFiles": [
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/app/page.tsx",
+    "frontend/components/auth/LandingAuthGate.tsx",
+    "frontend/components/business/BusinessPortal.tsx",
+    "frontend/components/learning/LessonMedia.tsx",
+    "frontend/package.json",
+    "frontend/test/media-reliability.test.mjs",
+    "frontend/test/v60-10-reliability.test.mjs",
+    "frontend/test/v60-13-media-images.test.mjs",
+    "frontend/ui-tests/media-images-v60-13.spec.ts",
+    "package.json"
+  ],
+  "newSourceFiles": [
+    "frontend/lib/playerFrameGate.ts",
+    "frontend/test/v60-13-2-player-gate.test.mjs",
+    "frontend/ui-tests/player-preview-v60-13-2.spec.ts"
+  ],
+  "runtimeProductionChanges": [
+    "frontend/app/page.tsx",
+    "frontend/components/auth/LandingAuthGate.tsx",
+    "frontend/components/learning/LessonMedia.tsx",
+    "frontend/lib/playerFrameGate.ts"
+  ],
+  "metadataOnly": [
+    "package.json",
+    "frontend/package.json",
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx"
+  ],
+  "unchangedCriticalFileCount": 429,
+  "entirePublicStylesheetSha256": "e509e36547a1421e179d63089cec57d76c9e38192d014dc201223a86a8c6294c",
+  "baselineStylesheetSha256": "e509e36547a1421e179d63089cec57d76c9e38192d014dc201223a86a8c6294c",
+  "newFullBrowserSuiteStatus": "NOT RUN: dependency installation blocked by registry DNS",
+  "fullBrowserCasesDeclared": 59
+}

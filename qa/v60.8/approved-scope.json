@@ -1,0 +1,15 @@
+{
+  "stylesFile": "frontend/app/styles.css",
+  "originalPrefixBytes": 59706,
+  "originalPrefixSha256": "c995db017bd0937deaeb644d4714b4428d8df42fb3afafd3d0a33312552b450e",
+  "approvedAppendixReason": "Extend the existing compact menu to tablet widths, restore the logo and prevent clipped account actions. No desktop/mobile restyling.",
+  "certificateRendererChange": "User explicitly requested the attached gold-seal master theme. Issuance routes, ownership and old issued PDFs are not changed.",
+  "removedUnusedSampleArtwork": {
+    "files": [
+      "backend/src/assets/certificate-theme-background.png",
+      "backend/src/assets/certificate-theme-background.rgb.deflate",
+      "backend/src/assets/certificate-theme-background.json"
+    ],
+    "reason": "Unused old screenshot background contained burned-in sample learner/course/date/serial. Replaced by blank v608 master artwork with server-rendered dynamic fields."
+  }
+}

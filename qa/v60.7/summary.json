@@ -1,0 +1,30 @@
+{
+  "release": "60.7.0",
+  "backend_tests": {
+    "passed": 727,
+    "total": 727,
+    "failed": 0
+  },
+  "reliability_tests": {
+    "passed": 31,
+    "total": 31,
+    "failed": 0
+  },
+  "source": {
+    "tsx_ts_files": 98,
+    "javascript_files": 161,
+    "relative_imports": 254,
+    "errors": 0
+  },
+  "protected_files": {
+    "total": 283,
+    "differences": 0
+  },
+  "dependency_versions_changed": false,
+  "full_verify": "BLOCKED_MISSING_LOCKFILES_AND_NO_REGISTRY_ACCESS",
+  "next_production_build": "NOT_RUN",
+  "dependency_backed_typecheck": "NOT_RUN",
+  "fresh_npm_audit": "NOT_RUN",
+  "browser_acceptance": "BLOCKED_BEFORE_FIRST_PAGE",
+  "live_hostinger_and_provider_checks": "NOT_RUN"
+}

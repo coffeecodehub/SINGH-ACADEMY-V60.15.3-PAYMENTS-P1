@@ -1,0 +1,58 @@
+{
+  "version": "60.13.0",
+  "node": "22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "startedAt": "2026-10-04T11:10:57.038Z",
+  "finishedAt": "2026-10-04T11:11:22.689Z",
+  "status": "failed",
+  "scope": "LOCAL gates on the recorded Node runtime; fixture payments are not actual provider transactions",
+  "runtimePolicy": {
+    "allowed": "22.x || 24.x",
+    "existingDeploymentNodeMajor": 22,
+    "note": "A local pass does not verify a different deployment runtime. CI must pass for the deployed Node major, using the same commit and lockfiles."
+  },
+  "checks": [
+    {
+      "name": "Runtime policy and package consistency",
+      "status": "passed"
+    },
+    {
+      "name": "Install locked dependencies",
+      "status": "failed",
+      "error": "npm run install:all failed (1). Stop and resolve this error before deployment."
+    },
+    {
+      "name": "Local backend configuration",
+      "status": "not_run"
+    },
+    {
+      "name": "Unit/reliability, protected UI, TypeScript, production build and production audits",
+      "status": "not_run"
+    },
+    {
+      "name": "Full backend dependency audit",
+      "status": "not_run"
+    },
+    {
+      "name": "Full frontend dependency audit",
+      "status": "not_run"
+    },
+    {
+      "name": "Install project Chromium",
+      "status": "not_run"
+    },
+    {
+      "name": "Full actual Next browser suite including auth, free course, certificate and payment fixtures",
+      "status": "not_run"
+    },
+    {
+      "name": "Payment configuration (no charge)",
+      "status": "not_run"
+    },
+    {
+      "name": "SMTP connection/authentication (not inbox delivery)",
+      "status": "not_run"
+    }
+  ]
+}

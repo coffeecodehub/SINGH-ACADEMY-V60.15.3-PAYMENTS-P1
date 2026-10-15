@@ -1,0 +1,283 @@
+--- a/CURRENT-RELEASE.md
++++ b/CURRENT-RELEASE.md
+@@ -1,6 +1,7 @@
+-# Current candidate: 60.15.2
++# Current candidate: 60.15.3
+ 
+-Start with `LOCAL-GUIDE-V60.15.2.md` and `QA-REPORT-V60.15.2.md`.
+-Target: true HTTP 404 for retired resource pages; correct standalone startup for the DB-backed browser test server.
+-Payment/access logic, authentication middleware, dependency declarations, Node 22/24 policy, CSS and original assets are unchanged.
+-Fresh local + real integration + CI + staging acceptance are required. Old version reports are history, not clearance.
++Target: HTTPS upload scanning on managed Hostinger, retaining private ClamAV support.
++Read UPLOADS-SETUP-V60.15.3.md, LOCAL-GUIDE-V60.15.3.md and QA-REPORT-V60.15.3.md.
++No UI redesign, payment changes, new dependency, Node switch or database migration.
++Cloudmersive account/plan/key + external/deployed acceptance remain operator tasks.
++Older QA records describe older versions and are not current release approval.
+--- a/README.md
++++ b/README.md
+@@ -1,26 +1,30 @@
+-# Singh Academy V60.15.2
++# Singh Academy V60.15.3
+ 
+-Complete project source, not a patch. Read **LOCAL-GUIDE-V60.15.2.md** first.
+-See **QA-REPORT-V60.15.2.md** for executed checks and verification limits.
++Complete project source, not a patch. Read **UPLOADS-SETUP-V60.15.3.md** first, then
++**LOCAL-GUIDE-V60.15.3.md**. **QA-REPORT-V60.15.3.md** separates executed tests from
++external/provider/deployment acceptance still required.
+ 
+-## Targeted correction
++## Targeted update
+ 
+-The original `/free-resources` and `/resources` page stubs already called `notFound()`.
+-They were not restored demo pages. The parent loading/Suspense path can commit a 200
+-response before the not-found result. They now have non-streamed HTTP Route Handler
+-responses returning 404, including old deep links and HEAD requests. Existing guest
+-login protection and the current status-page wording/appearance are retained.
++Only upload scanning is extended: existing private ClamAV remains supported, and
++Cloudmersive HTTPS Virus Scan is available for managed Hostinger without a clamd endpoint.
++No provider account/key is included and no subscription is purchased. Files remain in
++private temporary storage until an explicit clean result. Rejection/outage/timeout/
++malformed replies never fall back to unscanned permanent storage.
+ 
+-The DB-backed browser launcher now uses `.next/standalone/server.js`, with the required
+-`public` and `.next/static` assets copied into generated standalone output. It no longer
+-uses `next start` against the standalone artifact. No provider, financial model or
+-application authentication policy is changed.
++Payment/access/refund/authentication/video/certificate code and all original CSS/assets
++are preserved (release labels apart). The user's already-approved accessible Team CI
++selector is retained; the downloadable V60.15.2 base predated that one-line Git commit.
++
++**A Cloudmersive account/API key and an appropriate file-size/quota plan are required
++before enabling uploads.** Free evaluation covers small files only; see the setup guide.
++All scanner credentials belong in backend environment variables, never NEXT_PUBLIC_*.
+ 
+ ## Testing
+ 
+ Use a FRESH extracted folder; do not overlay this on old resource page files.
+ Copy only private `.env` files and reviewed backend/frontend `package-lock.json` files
+-from your working V60.15.1 copy. Do not copy old source, `.next` or `node_modules`.
++from your working V60.15.2 copy. Do not copy old source, `.next` or `node_modules`.
+ Keep your supported Node 22.x or 24.x and working Docker installation.
+ 
+ ```powershell
+--- a/backend/.env.example
++++ b/backend/.env.example
+@@ -25,7 +25,7 @@
+ EMAIL_FROM=Singh Academy <no-reply@singhacademy.com>
+ # V47 supports verified hosted Stripe/PayPal checkout. Configure the settings below and validate on staging before enabling live sales.
+ 
+-# Development may preview email and skip the scanner. Production preflight requires both.
++# Development may preview email and skip the scanner. Hosted uploads require a configured scanner (ClamAV or Cloudmersive).
+ MAX_UPLOAD_MB=250
+ MAX_CONCURRENT_UPLOADS=2
+ MONGO_MAX_POOL=20
+@@ -83,3 +83,12 @@
+ # An explicitly verified value must be <=18000 seconds; never guess retention.
+ # Normal first checkout and known-order Back/Cancel switching do not need replay.
+ PAYPAL_CREATE_REPLAY_SECONDS=0
++
++# V60.15.3: existing private ClamAV remains the default; managed Hostinger can select cloudmersive.
++# Configure these ONLY in the backend. Cloudmersive sends the quarantined file bytes over HTTPS.
++# Account owner must review provider privacy, region, capacity and cost before public uploads.
++UPLOAD_SCAN_PROVIDER=clamav
++CLOUDMERSIVE_API_KEY=
++# Default evaluation cap: 3.5 decimal MB. Raising this does NOT upgrade your provider account.
++# With a suitable subscribed plan, 262144000 preserves the existing 250 MiB admin limit.
++CLOUDMERSIVE_MAX_FILE_BYTES=3500000
+--- a/backend/integration/isolation.js
++++ b/backend/integration/isolation.js
+@@ -10,7 +10,7 @@
+ }
+ export function testEnvironment(){
+  // Dedicated CI fixtures must never inherit real provider/mail credentials.
+- for(const name of ['STRIPE_SECRET_KEY','STRIPE_WEBHOOK_SECRET','PAYPAL_CLIENT_ID','PAYPAL_CLIENT_SECRET','PAYPAL_WEBHOOK_ID','PAYPAL_MERCHANT_ID','SMTP_USER','SMTP_PASS'])delete process.env[name];
++ for(const name of ['STRIPE_SECRET_KEY','STRIPE_WEBHOOK_SECRET','PAYPAL_CLIENT_ID','PAYPAL_CLIENT_SECRET','PAYPAL_WEBHOOK_ID','PAYPAL_MERCHANT_ID','SMTP_USER','SMTP_PASS','CLOUDMERSIVE_API_KEY'])delete process.env[name];
+  process.env.ONLINE_PAYMENTS_ENABLED='false';
+- Object.assign(process.env,{NODE_ENV:'test',DEPLOYMENT_STAGE:'development',PAYPAL_CREATE_REPLAY_SECONDS:'0',SA_REQUIRE_PROXY_IDENTITY:'false',SA_PROXY_SHARED_SECRET:'',ASSESSMENT_SECRET:'',AUTH_SECRET:crypto.randomBytes(48).toString('hex'),MFA_ENCRYPTION_KEY:crypto.randomBytes(32).toString('hex'),FRONTEND_URL:'http://localhost:3000',FRONTEND_URLS:'http://localhost:3000',REQUIRE_ADMIN_MFA:'true',TRUST_PROXY_HOPS:'0',UPLOAD_SCAN_REQUIRED:'false',SMTP_HOST:'',HTTP_ACCESS_LOGS:'false'});
++ Object.assign(process.env,{NODE_ENV:'test',DEPLOYMENT_STAGE:'development',PAYPAL_CREATE_REPLAY_SECONDS:'0',SA_REQUIRE_PROXY_IDENTITY:'false',SA_PROXY_SHARED_SECRET:'',ASSESSMENT_SECRET:'',AUTH_SECRET:crypto.randomBytes(48).toString('hex'),MFA_ENCRYPTION_KEY:crypto.randomBytes(32).toString('hex'),FRONTEND_URL:'http://localhost:3000',FRONTEND_URLS:'http://localhost:3000',REQUIRE_ADMIN_MFA:'true',TRUST_PROXY_HOPS:'0',UPLOAD_SCAN_REQUIRED:'false',UPLOAD_SCAN_PROVIDER:'clamav',CLAMAV_HOST:'',UPLOADS_ENABLED:'true',CLOUDMERSIVE_MAX_FILE_BYTES:'3500000',UPLOAD_SCAN_TIMEOUT_MS:'120000',SMTP_HOST:'',HTTP_ACCESS_LOGS:'false'});
+ }
+--- a/backend/package.json
++++ b/backend/package.json
+@@ -1,6 +1,6 @@
+ {
+   "name": "singh-academy-backend",
+-  "version": "60.15.2",
++  "version": "60.15.3",
+   "private": true,
+   "type": "module",
+   "scripts": {
+@@ -45,7 +45,8 @@
+     "db:prepare": "node src/scripts/checkDatabase.js",
+     "access:audit": "node src/scripts/checkAccessHistory.js",
+     "handover:check": "node src/scripts/checkHandover.js",
+-    "test:contracts": "node --test contract-tests/*.test.js"
++    "test:contracts": "node --test contract-tests/*.test.js",
++    "scan:check": "node src/scripts/checkUploadScanner.js"
+   },
+   "dependencies": {
+     "bcryptjs": "^3.0.2",
+--- a/backend/src/app.js
++++ b/backend/src/app.js
+@@ -30,7 +30,7 @@
+  app.use('/api',proxyIdentity);
+  app.use(express.json({limit:'2mb'}));app.use(cookieParser());
+  app.use((req,res,next)=>{if(!writeRequestAllowed({method:req.method,origin:req.get('origin'),referer:req.get('referer'),marker:req.get('X-SA-CSRF'),fetchSite:req.get('Sec-Fetch-Site')},origins))return res.status(403).json({success:false,message:'Request origin or anti-CSRF header was rejected.'});next();});
+- app.get('/api/health',(req,res)=>res.json({success:true,version:'60.15.2'}));
++ app.get('/api/health',(req,res)=>res.json({success:true,version:'60.15.3'}));
+  app.get('/api/health/ready',async(req,res)=>{try{if(mongoose.connection.readyState!==1)throw new Error();await mongoose.connection.db.command({ping:1},{maxTimeMS:2000});return res.json({success:true,ready:true});}catch{return res.status(503).json({success:false,ready:false});}});
+  app.use('/api',rateLimit('api-global',600,60000,{sessionIdentity:true}));
+  app.use('/api',catalogInvalidation);
+--- a/backend/src/scripts/checkHandover.js
++++ b/backend/src/scripts/checkHandover.js
+@@ -2,7 +2,7 @@
+  * edge-header or email-inbox test. Never enables live payments automatically. */
+ import 'dotenv/config';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import mongoose from 'mongoose';
+ import {checkEnvironment} from '../utils/deployment.js';import {usableProxySecret} from '../utils/proxyIdentity.js';
+-const root=fileURLToPath(new URL('../../..',import.meta.url)),report={startedAt:new Date().toISOString(),status:'running',readOnly:true,handoverApproved:false,checks:[],remainingAcceptance:['Validate the configured hosting edge overwrites the selected client-IP header; two clients get distinct signed fingerprints','Actual Stripe test and PayPal sandbox purchase/cancel/switch/refund, signed webhooks, invoice/access and inbox','Both CI Node jobs on the same commit/lockfiles','Backup/restore rehearsal, deployed media and final HTTPS domain acceptance']};
++const root=fileURLToPath(new URL('../../..',import.meta.url)),report={startedAt:new Date().toISOString(),status:'running',readOnly:true,handoverApproved:false,checks:[],remainingAcceptance:['Validate the configured hosting edge overwrites the selected client-IP header; two clients get distinct signed fingerprints','Actual Stripe test and PayPal sandbox purchase/cancel/switch/refund, signed webhooks, invoice/access and inbox','Cloudmersive/private ClamAV actual clean/rejection probes and hosted upload acceptance, including size/quota limits','Both CI Node jobs on the same commit/lockfiles','Backup/restore rehearsal, deployed media and final HTTPS domain acceptance']};
+ try{
+  const env=checkEnvironment(process.env);report.checks.push({name:'Hosted production-mode configuration',passed:env.production&&process.env.NODE_ENV==='production'&&env.errors.length===0,errors:env.errors});
+  report.checks.push({name:'Require trusted proxy identity for browser writes',passed:process.env.SA_REQUIRE_PROXY_IDENTITY==='true'&&usableProxySecret(process.env.SA_PROXY_SHARED_SECRET)});
+--- a/backend/src/server.js
++++ b/backend/src/server.js
+@@ -28,7 +28,7 @@
+   if(process.env.NODE_ENV==='production')await assertCriticalIndexes();
+   const app=createApp();
+   server=createServer(app);
+-  server.once('listening',()=>{console.log(`Singh Academy V60.15.2 API listening on port ${process.env.PORT||5000}.`);stopNotifications=startStudentNotificationWorker();});
++  server.once('listening',()=>{console.log(`Singh Academy V60.15.3 API listening on port ${process.env.PORT||5000}.`);stopNotifications=startStudentNotificationWorker();});
+   server.requestTimeout=1800000; // Allow large course uploads while keeping an explicit 30-minute upper bound.
+   server.headersTimeout=20000;server.keepAliveTimeout=5000;
+   server.on('error',error=>{console.error(error.code==='EADDRINUSE'?`Port ${process.env.PORT||5000} is already in use. Stop the previous backend terminal, then retry. Do not terminate unrelated processes.`:'Listener failed: '+(error.code||'SERVER_ERROR'));void shutdown('listen_error',1);});
+--- a/backend/src/services/uploadScan.js
++++ b/backend/src/services/uploadScan.js
+@@ -1,9 +1,15 @@
+ import net from 'node:net';
+ import fs from 'node:fs';
+-/** ClamAV INSTREAM protocol. Scanner unavailable/too-large/error fails closed. */
+-export async function scanFile(filePath,{signal}={}){
++import {uploadScanConfiguration} from '../utils/uploadScanConfig.js';
++import {scanCloudmersiveFile} from './uploadScanCloudmersive.js';
++/** Provider dispatch. Explicit HTTPS scanning never falls back to an unscanned upload.
++ * Legacy private-network ClamAV INSTREAM remains supported without changing its protocol. */
++export async function scanFile(filePath,{signal,mime}={}){
+  if(signal?.aborted)throw Object.assign(new Error('Upload cancelled.'),{name:'AbortError',status:499});
+- const host=process.env.CLAMAV_HOST,required=process.env.UPLOAD_SCAN_REQUIRED==='true';
++ const config=uploadScanConfiguration(process.env);
++ if(config.errors.length)throw Object.assign(new Error('Upload scanner configuration is invalid. Ask the administrator to review the scanner settings.'),{status:503,code:'UPLOAD_SCAN_CONFIGURATION'});
++ if(config.provider==='cloudmersive')return scanCloudmersiveFile(filePath,{signal,mime});
++ const host=process.env.CLAMAV_HOST,required=config.required;
+  if(!host){if(required)throw Object.assign(new Error('Upload scanner unavailable. Try again later.'),{status:503});return {status:'not-scanned-development'};}
+  const port=Number(process.env.CLAMAV_PORT||3310),timeout=Number(process.env.UPLOAD_SCAN_TIMEOUT_MS||120000);
+  return new Promise((resolve,reject)=>{
+--- a/backend/src/services/uploads.js
++++ b/backend/src/services/uploads.js
+@@ -40,7 +40,7 @@
+   try{head=Buffer.alloc(Math.min(file.size,65536));tail=Buffer.alloc(Math.min(file.size,131072));await handle.read(head,0,head.length,0);await handle.read(tail,0,tail.length,Math.max(0,file.size-tail.length));}finally{await handle.close();}
+   let mime=validateSignature(head,tail,file.mimetype),name=String(file.originalname||'upload').replace(/[\x00-\x1f\x7f]/g,'').slice(0,150),size=file.size;
+   if(mime.startsWith('image/')&&size>10*1024*1024)throw httpError(400,'Images must be 10 MB or smaller.');
+-  const scan=await scanFile(file.path,{signal:abort.signal});let source=file.path,width,height;
++  const scan=await scanFile(file.path,{signal:abort.signal,mime});let source=file.path,width,height;
+   if(mime.startsWith('image/')){
+    output=file.path+'.webp';
+    // Decode and re-encode, strip EXIF/GPS, cap pixels and physical width. Animated uploads become a still thumbnail.
+--- a/backend/src/utils/deployment.js
++++ b/backend/src/utils/deployment.js
+@@ -1,3 +1,4 @@
++import {uploadScanConfiguration} from './uploadScanConfig.js';
+ import {usableProxySecret} from './proxyIdentity.js';
+ import {hostedEnvironment} from './deploymentMode.js';
+ import {gatewayConfiguration} from './commerce.js';
+@@ -29,11 +30,17 @@
+   }
+   try { envInteger(env.PORT, 5000, 1, 65535); envInteger(env.TRUST_PROXY_HOPS, 0, 0, 3); envInteger(env.MAX_UPLOAD_MB, 250, 1, 500); envInteger(env.MONGO_MAX_POOL, 20, 2, 100); }
+   catch (error) { errors.push(error.message); }
++  const scan=uploadScanConfiguration(env);
++  errors.push(...scan.errors);
++  if (scan.provider==='cloudmersive' && scan.enabled) warnings.push('Uploads will be sent to Cloudmersive over HTTPS for scanning. Review privacy/region/plan limits and run scan:check --remote; configuration alone is not service availability.');
+   if (production) {
+     if (!env.SMTP_HOST || isPlaceholder(env.SMTP_HOST) || !env.EMAIL_FROM || /YOUR_|example\./i.test(env.EMAIL_FROM)) errors.push('Production requires configured SMTP_HOST and EMAIL_FROM; the development console is not an email service.');
+     if (!env.FRONTEND_URL || !origins.includes(env.FRONTEND_URL)) errors.push('FRONTEND_URL must be one of the allowed HTTPS origins.');
+     if (env.PUBLIC_API_URL !== '/api') warnings.push('Use PUBLIC_API_URL=/api with the supplied same-origin reverse proxy. Cross-site frontend/API hosting is unsupported by this deployment.');
+-    if (!(review && env.UPLOADS_ENABLED === 'false') && (env.UPLOAD_SCAN_REQUIRED !== 'true' || !env.CLAMAV_HOST)) errors.push('Production uploads require UPLOAD_SCAN_REQUIRED=true and a reachable CLAMAV_HOST.');
++    if (!(review && env.UPLOADS_ENABLED === 'false')) {
++      if (scan.provider==='clamav' && (env.UPLOAD_SCAN_REQUIRED!=='true' || !env.CLAMAV_HOST)) errors.push('Production uploads require UPLOAD_SCAN_REQUIRED=true and a reachable CLAMAV_HOST.');
++      if (scan.provider==='cloudmersive' && env.UPLOAD_SCAN_REQUIRED!=='true') errors.push('Hosted Cloudmersive uploads require UPLOAD_SCAN_REQUIRED=true; scanning cannot be bypassed.');
++    }
+     if (/localhost|127\.0\.0\.1/.test(uri) && !/replicaSet=/.test(uri)) warnings.push('A local database must run as a replica set for financial transactions.');
+   }
+   if(review&&env.UPLOADS_ENABLED==='false')warnings.push('Review upload endpoints are disabled. Existing learning media remains readable; configure a scanner before enabling new uploads.');
+--- a/frontend/components/business/BusinessPortal.tsx
++++ b/frontend/components/business/BusinessPortal.tsx
+@@ -44,7 +44,7 @@
+  return <div className="bizShell"><button className={'bizMobileBackdrop'+(menuOpen?' open':'')} aria-label="Close navigation" onClick={()=>setMenuOpen(false)} tabIndex={menuOpen?0:-1}/><aside className={'bizSidebar'+(menuOpen?' open':'')} aria-label="Workspace navigation"><a className="bizLogo" href="/" target="_blank" rel="noopener noreferrer"><AcademyImage src="/singh-academy-logo-clean.png" alt=""/><div><strong>SINGH ACADEMY</strong><small>{isSuper?'Website studio':'Academy workspace'}</small></div></a><div className="bizWorkspaceLabel"><i/>{isSuper?'Super Admin · Builder team':'Client Admin · Academy management'}</div>{groups.map(g=><nav key={g.label} className="bizNavGroup" aria-label={g.label}><span>{g.label}</span>{g.items.map(item=>{const badge=!isSuper?Number(navCounts[item]||0):0;return <button key={item} className={item===selected?'active':''} onClick={()=>navigate(item)} disabled={setupRequired&&item!=='security'} aria-current={item===selected?'page':undefined}><Icon name={sections[item].icon} size={18}/><span className="bizNavText">{sections[item].title}</span>{badge>0&&<span className="bizNavBadge" aria-label={`${badge} new`}>{badge>99?'99+':badge}</span>}</button>})}</nav>)}<div className="bizSideFoot"><span className="bizAvatar">{(user.name||'A')[0]}</span><div><b>{user.name}</b><small>{user.email}</small></div><button className="bizIconButton" aria-label="Sign out" onClick={signOut}><Icon name="logout" size={17}/></button></div></aside><main className="bizMain"><header className="bizTopbar"><div className="bizBreadcrumb"><button className="bizIconButton bizMobileToggle" aria-label="Toggle navigation" aria-expanded={menuOpen} onClick={()=>setMenuOpen(v=>!v)}><Icon name="menu"/></button><span>{isSuper?'Website studio':'Academy administration'}</span><span>/</span><strong>{meta.title}</strong></div><div className="bizTopActions"><span><Icon name="shield" size={15}/>Separate admin session</span><a className="bizButton bizButtonSmall" href="/" target="_blank" rel="noopener noreferrer">View website <Icon name="external" size={13}/></a></div></header><div className="bizWorkspace"><button className="bizBackButton" type="button" onClick={()=>selected==='content_overview'?router.push('/'):navigate('content_overview')}>← {selected==='content_overview'?'Back to website':'Back to overview'}</button><div className="bizPageHead"><div><div className="bizEyebrow">{isSuper?'Builder workspace':'Client workspace'} / Singh Academy</div><h1>{meta.title}</h1><p>{meta.description}</p></div></div>
+  {logoutError&&<Notice error>{logoutError}</Notice>}
+  {selected==='security'?<SecurityPanel/>:contentName[selected]?<div className="bizCms"><ContentCollection key={selected} kind={contentName[selected]} onDirtyChange={setDirty}/></div>:selected==='plans'||selected==='social'?<div className="bizCms"><SiteEditor key={selected} kind={selected==='plans'?'Academy Plans':'Footer & Social'} onDirtyChange={setDirty}/></div>:selected==='website'&&isSuper?<WebsiteContentEditor onDirtyChange={setDirty}/>:selected==='content_overview'?<AcademyOverview client={!isSuper} onNavigate={navigate}/>:!isSuper&&selected==='students'?<AdminStudents/>:!isSuper&&selected==='subscriptions'?<AdminSubscriptions/>:!isSuper&&selected==='purchases'?<AdminCoursePurchases/>:!isSuper&&selected==='forms'?<FormSubmissions/>:selected==='reviews'?<AdminReviews readOnly={!isSuper}/>:!isSuper&&selected==='certificates'?<Certificates/>:!isSuper&&selected==='notifications'?<AcademyNotifications onReview={()=>navigate('certificates')}/>:null}
+- <footer className="bizFooter"><span>Singh Academy · {isSuper?'Website management':'Academy administration'} · V60.15.2</span><span>{isSuper?'Website content controls':'Student answers · certificate review'}</span></footer></div></main>
++ <footer className="bizFooter"><span>Singh Academy · {isSuper?'Website management':'Academy administration'} · V60.15.3</span><span>{isSuper?'Website content controls':'Student answers · certificate review'}</span></footer></div></main>
+  {toast&&<div className="bizToast" role="status"><Icon name="check" size={18}/><span>{toast}</span><button aria-label="Dismiss message" onClick={()=>setToast('')}><Icon name="close" size={17}/></button></div>}
+  </div>;
+ }
+--- a/frontend/e2e/public-portals.spec.ts
++++ b/frontend/e2e/public-portals.spec.ts
+@@ -17,6 +17,6 @@
+  await page.setViewportSize({width:1440,height:900});const result=await page.goto('/');
+  expect(result?.status()).toBe(200);await expect(page).toHaveURL('http://localhost:3000/');
+  await expect(page.getByRole('heading',{level:1})).toBeVisible();
+- await page.locator('header nav a').filter({hasText:/^Team$/}).click();
++ await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Team' }).click();
+  await expect(page).toHaveURL(/\/login\?next=%2Fteam$/);
+ });
+--- a/frontend/package.json
++++ b/frontend/package.json
+@@ -26,7 +26,7 @@
+     "node": "22.x || 24.x"
+   },
+   "name": "singh-academy-frontend",
+-  "version": "60.15.2",
++  "version": "60.15.3",
+   "overrides": {
+     "sharp": "0.35.5",
+     "next": {
+--- a/package.json
++++ b/package.json
+@@ -1,6 +1,6 @@
+ {
+   "name": "singh-academy",
+-  "version": "60.15.2",
++  "version": "60.15.3",
+   "private": true,
+   "scripts": {
+     "setup": "node scripts/setup.mjs",
+@@ -44,7 +44,8 @@
+     "db:prepare": "npm --prefix backend run db:prepare",
+     "access:audit": "npm --prefix backend run access:audit",
+     "handover:check": "npm --prefix backend run handover:check",
+-    "test:contracts": "npm --prefix backend run test:contracts"
++    "test:contracts": "npm --prefix backend run test:contracts",
++    "scan:check": "npm --prefix backend run scan:check"
+   },
+   "engines": {
+     "node": "22.x || 24.x"
+--- a/scripts/integration-check.mjs
++++ b/scripts/integration-check.mjs
+@@ -5,7 +5,7 @@
+ const root=fileURLToPath(new URL('../',import.meta.url)),project=`sa-check-${Date.now()}-${process.pid}`;
+ const env={...process.env,TEST_MONGODB_URI:'mongodb://127.0.0.1:27018/sa_test?replicaSet=rs0&directConnection=true',NEXT_PUBLIC_API_URL:'/api',NODE_ENV:'test',DEPLOYMENT_STAGE:'development',SA_REQUIRE_PROXY_IDENTITY:'false',SA_PROXY_SHARED_SECRET:'',SA_PROXY_CLIENT_IP_HEADER:'',SA_PROXY_CLIENT_IP_VERIFIED:'false'};
+ // Do not let a copied production URI or gateway secret become a test fallback.
+-for(const key of ['MONGODB_URI','MONGO_URI','STRIPE_SECRET_KEY','STRIPE_WEBHOOK_SECRET','PAYPAL_CLIENT_SECRET','PAYPAL_CLIENT_ID','PAYPAL_WEBHOOK_ID','SMTP_PASS','SMTP_USER'])delete env[key];
++for(const key of ['MONGODB_URI','MONGO_URI','STRIPE_SECRET_KEY','STRIPE_WEBHOOK_SECRET','PAYPAL_CLIENT_SECRET','PAYPAL_CLIENT_ID','PAYPAL_WEBHOOK_ID','SMTP_PASS','SMTP_USER','CLOUDMERSIVE_API_KEY'])delete env[key];
+ const report={version:JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8')).version,startedAt:new Date().toISOString(),status:'running',scope:'Isolated real MongoDB transactions and DB-backed browser tests. Provider/SMTP fixtures are not external acceptance.',handoverReady:false,checks:[]};
+ const file=path.join(root,'qa/integration-checks.json');fs.mkdirSync(path.dirname(file),{recursive:true});const save=()=>fs.writeFileSync(file,JSON.stringify(report,null,2)+'\n');
+ const command=(args,quiet=false)=>{const r=spawnSync('docker',args,{cwd:root,env,encoding:'utf8',stdio:quiet?'pipe':'inherit',timeout:180000});if(r.error||r.status!==0)throw new Error('Docker command failed. Install/start Docker Desktop, ensure port 27018 is free, and inspect the error. Production database was not used.');return r.stdout;};
+--- a/scripts/release-check.mjs
++++ b/scripts/release-check.mjs
+@@ -51,7 +51,7 @@
+     status: 'running',
+     scope: 'LOCAL gates on the recorded Node runtime; fixture payments are not actual provider transactions',
+     handoverReady: false,
+-    notCovered: ['Real MongoDB HTTP/transaction suite and database-backed browser checks (run verify:integration / CI)', 'Actual deployed database indexes and access-history audit', 'Hostinger trusted-client network attribution', 'Actual provider sandbox checkout, signed webhooks and inbox delivery', 'Final domain/runtime and live-mode acceptance'],
++    notCovered: ['Real MongoDB HTTP/transaction suite and database-backed browser checks (run verify:integration / CI)', 'Actual deployed database indexes and access-history audit', 'Hostinger trusted-client network attribution', 'Actual provider sandbox checkout, signed webhooks and inbox delivery', 'Final domain/runtime and live-mode acceptance', 'External upload-scanner account/quota and deployed upload acceptance'],
+     runtimePolicy: {
+       allowed: NODE_ENGINE_RANGE,
+       existingDeploymentNodeMajor: EXISTING_DEPLOYMENT_NODE_MAJOR,

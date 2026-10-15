@@ -1,0 +1,11 @@
+{
+  "filesCompared": 286,
+  "unexpectedDifferences": 0,
+  "groups": [
+    "all existing CSS",
+    "public/frontend assets",
+    "backend assets",
+    "all existing UI/e2e test files"
+  ],
+  "scope": "source byte comparison; no browser execution"
+}

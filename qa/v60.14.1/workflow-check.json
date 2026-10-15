@@ -1,0 +1,10 @@
+{
+  "yaml_parsed": true,
+  "bash_steps_parsed": 9,
+  "node_matrix": [
+    "22",
+    "24"
+  ],
+  "test_mongo_tmpfs": "2g",
+  "not_a_GitHub_execution": true
+}

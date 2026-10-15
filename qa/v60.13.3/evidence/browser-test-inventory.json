@@ -1,0 +1,301 @@
+{
+  "scope": "Declaration inventory ONLY. No browser test bodies executed.",
+  "count": 59,
+  "entries": [
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 390px",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 820px",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 hydration: public landing, guest auth and non-submit Back at 1440px",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 credentials go to intended protected page; root and login then resolve to Home",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 logout from Events revokes session, clears legacy paths and always opens guest landing",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 logout is observed by sibling tab; only deliberate credential submission restores session",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 slow SSR session plus fast client resolution does not hydrate the header with a different tree",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11 warm account/content state survives normal refresh without hydration warnings or redirect loop",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11.1 authenticated document redirects never change the browser hostname",
+      "executed": false
+    },
+    {
+      "file": "auth-hydration-v60-11.spec.ts",
+      "title": "V60.11.1 Logout is disabled before hydration and the first enabled click revokes once",
+      "executed": false
+    },
+    {
+      "file": "guest-observer-v60-12-3.spec.ts",
+      "title": "V60.12.3 observer accepts one visible guest header with a hidden streaming copy",
+      "executed": false
+    },
+    {
+      "file": "guest-observer-v60-12-3.spec.ts",
+      "title": "V60.12.3 observer re-evaluates the login form after a delayed landing-to-login redirect",
+      "executed": false
+    },
+    {
+      "file": "guest-observer-v60-12-3.spec.ts",
+      "title": "V60.12.3 observer fails a genuine persistent TWO-visible-header rendering bug",
+      "executed": false
+    },
+    {
+      "file": "guest-observer-v60-12-3.spec.ts",
+      "title": "V60.12.3 observer refuses signed-in controls and preserves exact logout landing destination",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "explicit logout remains logged out after Back and Refresh until credentials are submitted",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "a separately opened tab observes logout without refreshing repeatedly",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "an unexpired session remains signed in when no logout has been requested",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "free course Start enrolls directly without a purchase request",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "manually visiting checkout for a free course does not show payment-provider buttons",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 375px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 768px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 901px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 1024px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 1228px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 1366px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "header fits 1440px without overlap and compact menu can open",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "newly issued certificate appears on the already open My Courses page",
+      "executed": false
+    },
+    {
+      "file": "logout-free-tablet.spec.ts",
+      "title": "direct About request without a cookie redirects to sign-in",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "vimeo player prepares paused, acknowledges Play once ready, and keeps the same iframe",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "youtube player prepares paused, acknowledges Play once ready, and keeps the same iframe",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "catalog priority photos request a grid-sized variant, not a full-viewport original",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "V60.13.1 fixture PNGs decode at their declared widths before responsive density correction",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "home warms first-row catalog photos before user opens catalog without mutating access",
+      "executed": false
+    },
+    {
+      "file": "media-images-v60-13.spec.ts",
+      "title": "slightly larger wide desktop header still fits without overlap",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "stripe course at 390px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "stripe membership at 390px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "paypal course at 390px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "paypal membership at 390px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "stripe course at 1440px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "stripe membership at 1440px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "paypal course at 1440px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "paypal membership at 1440px: one checkout, verified fixture return, owned invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "lost creation response recovers with the original key and no second purchase POST",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "unknown checkout survives refresh and prevents switching providers/new payment",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "only a server-confirmed closed checkout plus an explicit click permits a new key",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "provider cancellation is a read-only status check, not a capture or automatic retry",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "slow pending confirmation updates the same document without another checkout",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "temporary provider confirmation outage offers retry of status, not another purchase",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "one student cannot read or confirm another students checkout or invoice",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "provider Back preserves the original checkout and does not automatically create another order",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "paid return refresh reuses the settled order and cannot duplicate invoice, payment or notification",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "synthetic stripe document preserves UTF-8 heading and both return links",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "synthetic paypal document preserves UTF-8 heading and both return links",
+      "executed": false
+    },
+    {
+      "file": "payments-v60-12.spec.ts",
+      "title": "delayed creation is observed before approval and still settles exactly one order",
+      "executed": false
+    },
+    {
+      "file": "player-preview-v60-13-2.spec.ts",
+      "title": "vimeo delayed iframe commit emits no premature postMessage; early Play is delivered once after ready",
+      "executed": false
+    },
+    {
+      "file": "player-preview-v60-13-2.spec.ts",
+      "title": "youtube delayed iframe commit emits no premature postMessage; early Play is delivered once after ready",
+      "executed": false
+    },
+    {
+      "file": "player-preview-v60-13-2.spec.ts",
+      "title": "leaving a lesson before its Vimeo document commits does not post into the removed frame",
+      "executed": false
+    },
+    {
+      "file": "player-preview-v60-13-2.spec.ts",
+      "title": "guest landing team preview remains public; full profile keeps login destination at 390px",
+      "executed": false
+    },
+    {
+      "file": "player-preview-v60-13-2.spec.ts",
+      "title": "guest landing team preview remains public; full profile keeps login destination at 1440px",
+      "executed": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "DOM-only about:blank rendering in actual Chromium; no network navigation or Next/React auth suite",
+  "browser": "144.0.7559.96",
+  "cases": [
+    {
+      "name": "one visible hydrated header",
+      "status": "passed"
+    },
+    {
+      "name": "hidden streaming parent",
+      "status": "passed"
+    },
+    {
+      "name": "display-none streaming parent",
+      "status": "passed"
+    },
+    {
+      "name": "visibility-hidden header",
+      "status": "passed"
+    },
+    {
+      "name": "two visible headers are both observed",
+      "status": "passed"
+    },
+    {
+      "name": "hidden attribute overridden to visible is NOT ignored",
+      "status": "passed"
+    },
+    {
+      "name": "visible account controls observed",
+      "status": "passed"
+    },
+    {
+      "name": "hidden old-account template is not live controls",
+      "status": "passed"
+    },
+    {
+      "name": "visible login form and exact enabled Unicode submit",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate visible forms are both observed",
+      "status": "passed"
+    },
+    {
+      "name": "disabled submit cannot be accepted as ready",
+      "status": "passed"
+    }
+  ],
+  "passed": 11,
+  "failed": 0
+}

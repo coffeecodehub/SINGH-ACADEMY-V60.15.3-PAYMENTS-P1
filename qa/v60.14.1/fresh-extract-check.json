@@ -1,0 +1,27 @@
+{
+  "candidate": "60.14.1",
+  "crc": "passed",
+  "comparedFiles": 1269,
+  "unexpectedDifferences": 0,
+  "freshRoot": "SINGH-ACADEMY-V60.14.1-COMPLETE",
+  "scope": "Source byte equality, not native dependency/network verification",
+  "rerunResults": {
+    "tooling": {
+      "pass": 117,
+      "fail": 0
+    },
+    "backendUnitControlled": {
+      "pass": 891,
+      "fail": 0
+    },
+    "frontendControlled": {
+      "pass": 494,
+      "fail": 0
+    },
+    "protectedSource": {
+      "checked": 284,
+      "unexpectedDifferences": 0
+    }
+  },
+  "nativeBuildAuditBrowserBoundary": "NOT RUN: public npm registry DNS blocked"
+}

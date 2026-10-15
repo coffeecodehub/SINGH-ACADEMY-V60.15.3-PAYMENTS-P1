@@ -1,0 +1,21 @@
+{
+  "yaml": "parsed",
+  "shellStepsSyntaxChecked": [
+    "Check runtime policy and package consistency",
+    "Install dependencies without hiding lockfile problems",
+    "Source, unit, types, production build and dependency audit",
+    "Start isolated test replica set",
+    "Check actual MongoDB filesystem headroom",
+    "Real HTTP and transaction tests",
+    "Install browser and run actual frontend checks",
+    "Actual UI reliability fixtures (isolated local API, no provider or SMTP calls)",
+    "Stop test services"
+  ],
+  "matrix": [
+    "22",
+    "24"
+  ],
+  "mongoTmpfs": "2g",
+  "mongoBinding": "loopback only",
+  "fullWorkflowExecuted": false
+}

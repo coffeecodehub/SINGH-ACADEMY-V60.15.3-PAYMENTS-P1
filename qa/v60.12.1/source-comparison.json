@@ -1,0 +1,40 @@
+{
+  "baselineArchive": "Singh-Academy-V60.12.zip",
+  "baselineSha256": "44cb5d3dd1f6df79f92fdb3334094c641850fb78096a4843c34502b78dde1d94",
+  "baselineFiles": 1071,
+  "unchangedBaselineFiles": 1060,
+  "changedExistingFiles": [
+    ".github/workflows/quality.yml",
+    "README.md",
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx",
+    "frontend/package.json",
+    "package.json",
+    "scripts/install.mjs",
+    "scripts/release-check.mjs",
+    "scripts/verify.mjs"
+  ],
+  "missingBaselineFiles": [],
+  "addedFiles": [
+    "V60.12.1-CHANGED-FILES.md",
+    "V60.12.1-LOCAL-GUIDE.md",
+    "V60.12.1-QA-REPORT.md",
+    "qa/v60.12.1/backend-tests.log",
+    "qa/v60.12.1/frontend-reliability.log",
+    "qa/v60.12.1/protected-files.log",
+    "qa/v60.12.1/release-gate-attempt.json",
+    "qa/v60.12.1/release-gate-attempt.log",
+    "qa/v60.12.1/runtime-tests.log",
+    "qa/v60.12.1/source-check.log",
+    "qa/v60.12.1/source-comparison.json",
+    "scripts/check-runtime.mjs",
+    "scripts/runtime-policy.mjs",
+    "scripts/test/runtime-compatibility.test.mjs"
+  ],
+  "dependenciesAndOverridesUnchanged": true,
+  "applicationComparison": "PASS; only version literals changed in app.js, server.js and BusinessPortal.tsx; all other frontend/backend application files byte-identical",
+  "preservedCheck": "284 protected files + original CSS prefix: 0 unexpected differences",
+  "runtimeExecuted": "22.16.0 Linux x64; Node 24 acceptance tested as policy inputs only"
+}

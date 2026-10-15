@@ -1,0 +1,1 @@
+284 unchanged protected files + original CSS prefix checked; 0 unexpected differences. Requested navbar/loading additions tracked separately; certificate artwork/renderer unchanged.

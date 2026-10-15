@@ -1,0 +1,310 @@
+TAP version 13
+# Subtest: allow-disabled verifies both LIVE providers but never changes live checkout switch
+ok 1 - allow-disabled verifies both LIVE providers but never changes live checkout switch
+  ---
+  duration_ms: 16.025161
+  type: 'test'
+  ...
+# Subtest: disabled checker without explicit readiness option fails without provider access
+ok 2 - disabled checker without explicit readiness option fails without provider access
+  ---
+  duration_ms: 1.990976
+  type: 'test'
+  ...
+# Subtest: remote audit requires an explicit webhook base instead of guessing old temporary frontend URL
+ok 3 - remote audit requires an explicit webhook base instead of guessing old temporary frontend URL
+  ---
+  duration_ms: 1.348049
+  type: 'test'
+  ...
+# Subtest: live audit rejects unsafe webhook origin https://api.academy.test/extra
+ok 4 - live audit rejects unsafe webhook origin https://api.academy.test/extra
+  ---
+  duration_ms: 0.745682
+  type: 'test'
+  ...
+# Subtest: live audit rejects unsafe webhook origin https://user:password@api.academy.test
+ok 5 - live audit rejects unsafe webhook origin https://user:password@api.academy.test
+  ---
+  duration_ms: 2.108009
+  type: 'test'
+  ...
+# Subtest: live audit rejects unsafe webhook origin https://api.academy.test/?x=1
+ok 6 - live audit rejects unsafe webhook origin https://api.academy.test/?x=1
+  ---
+  duration_ms: 0.597262
+  type: 'test'
+  ...
+# Subtest: live audit rejects unsafe webhook origin http://api.academy.test
+ok 7 - live audit rejects unsafe webhook origin http://api.academy.test
+  ---
+  duration_ms: 0.669482
+  type: 'test'
+  ...
+# Subtest: trailing slash on origin is normalized without adding arbitrary paths
+ok 8 - trailing slash on origin is normalized without adding arbitrary paths
+  ---
+  duration_ms: 1.00637
+  type: 'test'
+  ...
+# Subtest: live command refuses sandbox/test input even when syntactically complete
+ok 9 - live command refuses sandbox/test input even when syntactically complete
+  ---
+  duration_ms: 7.007369
+  type: 'test'
+  ...
+# Subtest: live command refuses review deployment before contacting providers
+ok 10 - live command refuses review deployment before contacting providers
+  ---
+  duration_ms: 1.422384
+  type: 'test'
+  ...
+# Subtest: Stripe account unable to charge is not certified by successful authentication
+ok 11 - Stripe account unable to charge is not certified by successful authentication
+  ---
+  duration_ms: 1.092301
+  type: 'test'
+  ...
+# Subtest: Stripe pagination follows next cursor and finds endpoint beyond first page
+ok 12 - Stripe pagination follows next cursor and finds endpoint beyond first page
+  ---
+  duration_ms: 0.767822
+  type: 'test'
+  ...
+# Subtest: truncated Stripe pagination fails rather than declaring complete
+ok 13 - truncated Stripe pagination fails rather than declaring complete
+  ---
+  duration_ms: 2.258556
+  type: 'test'
+  ...
+# Subtest: disabled or test-mode Stripe destinations do not validate a LIVE destination
+ok 14 - disabled or test-mode Stripe destinations do not validate a LIVE destination
+  ---
+  duration_ms: 0.910753
+  type: 'test'
+  ...
+# Subtest: missing Stripe events cannot be silently ignored in strict mode
+ok 15 - missing Stripe events cannot be silently ignored in strict mode
+  ---
+  duration_ms: 1.115775
+  type: 'test'
+  ...
+# Subtest: catalog-absent PayPal reversal is a reported failure, not a fallback success without consent
+ok 16 - catalog-absent PayPal reversal is a reported failure, not a fallback success without consent
+  ---
+  duration_ms: 1.979301
+  type: 'test'
+  ...
+# Subtest: available missing event produces a repair suggestion without an automatic write
+ok 17 - available missing event produces a repair suggestion without an automatic write
+  ---
+  duration_ms: 1.231707
+  type: 'test'
+  ...
+# Subtest: explicit PayPal repair adds reversal and preserves custom events/resource version and URL
+ok 18 - explicit PayPal repair adds reversal and preserves custom events/resource version and URL
+  ---
+  duration_ms: 4.714141
+  type: 'test'
+  ...
+# Subtest: a webhook edited concurrently is not overwritten by repair
+ok 19 - a webhook edited concurrently is not overwritten by repair
+  ---
+  duration_ms: 1.344011
+  type: 'test'
+  ...
+# Subtest: a mismatched PayPal URL is never automatically changed
+ok 20 - a mismatched PayPal URL is never automatically changed
+  ---
+  duration_ms: 3.422814
+  type: 'test'
+  ...
+# Subtest: PayPal repair must be confirmed by a successful read-back retaining previous events
+ok 21 - PayPal repair must be confirmed by a successful read-back retaining previous events
+  ---
+  duration_ms: 1.214436
+  type: 'test'
+  ...
+# Subtest: wrong webhook ID response is not accepted as matching app registration
+ok 22 - wrong webhook ID response is not accepted as matching app registration
+  ---
+  duration_ms: 0.493229
+  type: 'test'
+  ...
+# Subtest: DENIED/DECLINED aliases are accepted without selecting unrelated events
+ok 23 - DENIED/DECLINED aliases are accepted without selecting unrelated events
+  ---
+  duration_ms: 1.172013
+  type: 'test'
+  ...
+# Subtest: repair prefers v2 DECLINED when capture-failure subscription is missing
+ok 24 - repair prefers v2 DECLINED when capture-failure subscription is missing
+  ---
+  duration_ms: 0.915593
+  type: 'test'
+  ...
+# Subtest: all-events subscription does not get replaced
+ok 25 - all-events subscription does not get replaced
+  ---
+  duration_ms: 0.885805
+  type: 'test'
+  ...
+# Subtest: provider error output/report redacts actual input credentials
+ok 26 - provider error output/report redacts actual input credentials
+  ---
+  duration_ms: 1.598376
+  type: 'test'
+  ...
+# Subtest: readiness repair requires both remote and strict intent
+ok 27 - readiness repair requires both remote and strict intent
+  ---
+  duration_ms: 0.854801
+  type: 'test'
+  ...
+# Subtest: root payments:check forwards npm flags instead of losing --remote at nested npm
+ok 28 - root payments:check forwards npm flags instead of losing --remote at nested npm
+  ---
+  duration_ms: 1.842896
+  type: 'test'
+  ...
+# Subtest: explicit request for a documented catalog-absent event must pass provider read-back
+ok 29 - explicit request for a documented catalog-absent event must pass provider read-back
+  ---
+  duration_ms: 2.076106
+  type: 'test'
+  ...
+# Subtest: a provider rejection of the documented missing event is never reported as fixed
+ok 30 - a provider rejection of the documented missing event is never reported as fixed
+  ---
+  duration_ms: 3.04199
+  type: 'test'
+  ...
+# Subtest: approval reversal durably blocks later capture, not only the displayed status
+ok 31 - approval reversal durably blocks later capture, not only the displayed status
+  ---
+  duration_ms: 12.90446
+  type: 'test'
+  ...
+# Subtest: reversal of a paid order cannot cancel paid access or request capture
+ok 32 - reversal of a paid order cannot cancel paid access or request capture
+  ---
+  duration_ms: 5.958686
+  type: 'test'
+  ...
+# Subtest: reversal overlapping an uncertain capture stays retryable, not safe for a second purchase
+ok 33 - reversal overlapping an uncertain capture stays retryable, not safe for a second purchase
+  ---
+  duration_ms: 5.101384
+  type: 'test'
+  ...
+# Subtest: uncertain reversal accepts only a terminal reconciled paid status
+ok 34 - uncertain reversal accepts only a terminal reconciled paid status
+  ---
+  duration_ms: 1.996409
+  type: 'test'
+  ...
+# Subtest: uncertain reversal accepts only a terminal reconciled failed status
+ok 35 - uncertain reversal accepts only a terminal reconciled failed status
+  ---
+  duration_ms: 1.442584
+  type: 'test'
+  ...
+# Subtest: uncertain reversal accepts only a terminal reconciled cancelled status
+ok 36 - uncertain reversal accepts only a terminal reconciled cancelled status
+  ---
+  duration_ms: 1.242566
+  type: 'test'
+  ...
+# Subtest: duplicate reversal does not apply twice
+ok 37 - duplicate reversal does not apply twice
+  ---
+  duration_ms: 1.217983
+  type: 'test'
+  ...
+# Subtest: PayPal postback retains original raw JSON whitespace and numeric representation
+ok 38 - PayPal postback retains original raw JSON whitespace and numeric representation
+  ---
+  duration_ms: 7.568671
+  type: 'test'
+  ...
+# Subtest: malformed raw PayPal JSON never requests an OAuth token
+ok 39 - malformed raw PayPal JSON never requests an OAuth token
+  ---
+  duration_ms: 3.90201
+  type: 'test'
+  ...
+# Subtest: missing PayPal signature fields are rejected before network access
+ok 40 - missing PayPal signature fields are rejected before network access
+  ---
+  duration_ms: 4.678267
+  type: 'test'
+  ...
+# Subtest: PayPal verification FAILURE never returns a trusted event
+ok 41 - PayPal verification FAILURE never returns a trusted event
+  ---
+  duration_ms: 5.078397
+  type: 'test'
+  ...
+# Subtest: PayPal byte-order mark is rejected rather than silently stripping signed bytes
+ok 42 - PayPal byte-order mark is rejected rather than silently stripping signed bytes
+  ---
+  duration_ms: 1.664781
+  type: 'test'
+  ...
+# Subtest: invalid UTF-8 in a PayPal message fails before postback
+ok 43 - invalid UTF-8 in a PayPal message fails before postback
+  ---
+  duration_ms: 1.296899
+  type: 'test'
+  ...
+# Subtest: signature envelope cannot be used as a raw order-creation bypass
+ok 44 - signature envelope cannot be used as a raw order-creation bypass
+  ---
+  duration_ms: 1.024434
+  type: 'test'
+  ...
+# Subtest: PayPal no-content response is handled for webhook PATCH
+ok 45 - PayPal no-content response is handled for webhook PATCH
+  ---
+  duration_ms: 1.939448
+  type: 'test'
+  ...
+# Subtest: OAuth error exposes only safe provider status/code, not secrets/raw responses
+ok 46 - OAuth error exposes only safe provider status/code, not secrets/raw responses
+  ---
+  duration_ms: 4.513006
+  type: 'test'
+  ...
+# Subtest: PayPal HTTP route uses raw bytes instead of parsed JSON for signature verification
+ok 47 - PayPal HTTP route uses raw bytes instead of parsed JSON for signature verification
+  ---
+  duration_ms: 1.214677
+  type: 'test'
+  ...
+# Subtest: a cancellation marker prevents a delayed approved order from invoking PayPal capture
+ok 48 - a cancellation marker prevents a delayed approved order from invoking PayPal capture
+  ---
+  duration_ms: 2.197319
+  type: 'test'
+  ...
+# Subtest: read-only reconciliation of an approved order cannot invoke capture
+ok 49 - read-only reconciliation of an approved order cannot invoke capture
+  ---
+  duration_ms: 1.699328
+  type: 'test'
+  ...
+# Subtest: Stripe required subscription policy still has all eight original events
+ok 50 - Stripe required subscription policy still has all eight original events
+  ---
+  duration_ms: 55.417582
+  type: 'test'
+  ...
+1..50
+# tests 50
+# suites 0
+# pass 50
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 320.380081

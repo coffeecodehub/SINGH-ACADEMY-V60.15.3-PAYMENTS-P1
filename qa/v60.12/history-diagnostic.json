@@ -1,0 +1,8 @@
+{
+  "diagnostic": "History replaceState on an already loaded document; not actual Next application",
+  "additionalFrameEvents": [
+    "about:blank"
+  ],
+  "additionalDocumentRequests": [],
+  "timeOriginUnchanged": true
+}

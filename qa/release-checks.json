@@ -1,0 +1,59 @@
+{
+  "version": "60.15.3",
+  "node": "24.18.0",
+  "platform": "win32",
+  "arch": "x64",
+  "startedAt": "2026-10-10T10:33:29.252Z",
+  "finishedAt": "2026-10-10T10:37:33.109Z",
+  "status": "failed",
+  "scope": "LOCAL gates on the recorded Node runtime; fixture payments are not actual provider transactions",
+  "handoverReady": false,
+  "notCovered": [
+    "Real MongoDB HTTP/transaction suite and database-backed browser checks (run verify:integration / CI)",
+    "Actual deployed database indexes and access-history audit",
+    "Hostinger trusted-client network attribution",
+    "Actual provider sandbox checkout, signed webhooks and inbox delivery",
+    "Final domain/runtime and live-mode acceptance",
+    "External upload-scanner account/quota and deployed upload acceptance"
+  ],
+  "runtimePolicy": {
+    "allowed": "22.x || 24.x",
+    "existingDeploymentNodeMajor": 22,
+    "note": "A local pass does not verify a different deployment runtime. CI must pass for the deployed Node major, using the same commit and lockfiles."
+  },
+  "checks": [
+    {
+      "name": "Runtime policy and package consistency",
+      "status": "passed"
+    },
+    {
+      "name": "Install locked dependencies",
+      "status": "passed"
+    },
+    {
+      "name": "Local backend configuration",
+      "status": "passed"
+    },
+    {
+      "name": "Unit/reliability, protected UI, TypeScript, production build and FOUR complete dependency audits",
+      "status": "failed",
+      "error": "npm run verify failed (1). Stop and resolve this error before deployment."
+    },
+    {
+      "name": "Install project Chromium",
+      "status": "not_run"
+    },
+    {
+      "name": "Full actual Next browser suite including auth, free course, certificate and payment fixtures",
+      "status": "not_run"
+    },
+    {
+      "name": "Payment configuration (no charge)",
+      "status": "not_run"
+    },
+    {
+      "name": "SMTP connection/authentication (not inbox delivery)",
+      "status": "not_run"
+    }
+  ]
+}

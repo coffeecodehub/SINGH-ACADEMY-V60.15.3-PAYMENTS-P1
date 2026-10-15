@@ -1,0 +1,9 @@
+   Downloading swc package @next/swc-linux-x64-gnu... to /home/oai/.cache/next-swc
+unhandledRejection [TypeError: fetch failed] {
+  [cause]: [Error: getaddrinfo EAI_AGAIN registry.npmjs.org] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'registry.npmjs.org'
+  }
+}

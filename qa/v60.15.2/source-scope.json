@@ -1,0 +1,46 @@
+{
+  "base": "Singh-Academy-V60.15.1.zip",
+  "baseSha256": "7f8d731b00cc415ac9ca2654e8e418316612deedffda18f94d2434f13c854b04",
+  "candidate": "60.15.2",
+  "modified": [
+    "CURRENT-RELEASE.md",
+    "README.md",
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx",
+    "frontend/package.json",
+    "package.json",
+    "qa/integration-checks.json",
+    "qa/release-checks.json",
+    "qa/security-dependencies.json",
+    "scripts/start-browser-stack.mjs"
+  ],
+  "deleted": [
+    "frontend/app/free-resources/page.tsx",
+    "frontend/app/resources/page.tsx"
+  ],
+  "addedBeforeQADocs": [
+    "LOCAL-GUIDE-V60.15.2.md",
+    "SOURCE-EVIDENCE-V60.15.2.md",
+    "frontend/app/free-resources/[[...retired]]/route.ts",
+    "frontend/app/resources/[[...retired]]/route.ts",
+    "frontend/e2e/retired-routes.spec.ts",
+    "frontend/lib/server/retiredNotFound.ts",
+    "frontend/test/v60-15-2-retired-routes.test.mjs",
+    "frontend/ui-tests/retired-routes-v60-15-2.spec.ts",
+    "qa/history-v60.15.1-packaged/integration-checks.json",
+    "qa/history-v60.15.1-packaged/release-checks.json",
+    "qa/history-v60.15.1-packaged/security-dependencies.json",
+    "qa/security-audit.json",
+    "scripts/standalone-files.mjs",
+    "scripts/test/v60-15-2-standalone.test.mjs"
+  ],
+  "unchangedExistingCSS": 13,
+  "unchangedOriginalAssetDirectoryFiles": 268,
+  "backendProductionOnlyVersionLabels": true,
+  "dependencyDeclarationsUnchanged": true,
+  "originalE2E404AssertionUnchanged": true,
+  "authMiddlewareAndPagePolicyUnchanged": true,
+  "NodeDockerWorkflowUnchanged": true
+}

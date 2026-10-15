@@ -1,0 +1,48 @@
+{
+  "scope": "native about:blank pre-commit guard only; not provider playback or Next/React E2E",
+  "browser": "144.0.7559.96",
+  "cases": [
+    {
+      "connected": true,
+      "documentBeforeLoad": "about:blank",
+      "syntheticLoadAccepted": false,
+      "sent": true,
+      "provider": "vimeo",
+      "legacyUnguardedSend": true,
+      "originMismatchMessages": [
+        "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://player.vimeo.com') does not match the recipient window's origin ('null')."
+      ]
+    },
+    {
+      "connected": true,
+      "documentBeforeLoad": "about:blank",
+      "syntheticLoadAccepted": false,
+      "sent": false,
+      "provider": "vimeo",
+      "legacyUnguardedSend": false,
+      "originMismatchMessages": []
+    },
+    {
+      "connected": true,
+      "documentBeforeLoad": "about:blank",
+      "syntheticLoadAccepted": false,
+      "sent": true,
+      "provider": "youtube",
+      "legacyUnguardedSend": true,
+      "originMismatchMessages": [
+        "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube-nocookie.com') does not match the recipient window's origin ('null')."
+      ]
+    },
+    {
+      "connected": true,
+      "documentBeforeLoad": "about:blank",
+      "syntheticLoadAccepted": false,
+      "sent": false,
+      "provider": "youtube",
+      "legacyUnguardedSend": false,
+      "originMismatchMessages": []
+    }
+  ],
+  "passed": 4,
+  "failed": 0
+}

@@ -1,0 +1,13 @@
+{
+  "baseArchive": "Singh-Academy-V60.12.1.zip",
+  "baseSHA256": "c4c899608ac486ea9d693949f54170f0ad050d664aeef33d4c09013810e3a34c",
+  "productionPathsChecked": 532,
+  "metadataOnlyProductionChanges": [
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx"
+  ],
+  "unexpectedProductionChanges": [],
+  "dependencyAndEngineDeclarationsUnchanged": true,
+  "noMigrationOrSeed": true
+}

@@ -1,0 +1,8 @@
+{
+  "version": "60.14.1",
+  "node": "22.16.0",
+  "recordedAt": "2026-10-06T15:57:59.277Z",
+  "status": "manifest_only",
+  "scope": "Installed Sharp/native-library identity and raster smoke; not an online vulnerability scan",
+  "checks": []
+}

@@ -1,0 +1,7 @@
+{
+  "method": "Compare text blocks with original ZIP source; normalize CRLF, BOM, and outer whitespace only",
+  "sections": 426,
+  "matched": 426,
+  "missing": [],
+  "mismatched": []
+}

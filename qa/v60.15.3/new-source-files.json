@@ -1,0 +1,30 @@
+[
+  {
+    "path": "backend/integration/v60-15-3-upload-scanning.test.js",
+    "sha256": "9cca417f8726915c0e327b69d021b37863cf719bf1bfce63515c9ddb4df2ad98"
+  },
+  {
+    "path": "backend/src/scripts/checkUploadScanner.js",
+    "sha256": "62ea4c4321f5b99a2474c4f4673371d1a07d8400de9fb6ea8411894e9384d95f"
+  },
+  {
+    "path": "backend/src/services/uploadScanCloudmersive.js",
+    "sha256": "99e9a41c784007641888fb8f0d22826fce984ad05a64fd7f04588480690f0495"
+  },
+  {
+    "path": "backend/src/utils/uploadScanConfig.js",
+    "sha256": "88b6691d4b83a9d5b59eef80d02678483085040a758b88463047c587232118af"
+  },
+  {
+    "path": "backend/test/v60-15-3-scanner.test.js",
+    "sha256": "f8fac7c45089d786420799c9bc3a828aaf937036a2c1aff4e2b3e9ca4aca09e6"
+  },
+  {
+    "path": "backend/test/v60-15-3-upload-pipeline.test.js",
+    "sha256": "db19fbaf4200bf99e685bed47ce2448400a20a9c40dc5e52174d1317103e3bd8"
+  },
+  {
+    "path": "scripts/test/v60-15-3-scanner-wiring.test.mjs",
+    "sha256": "a56d60b5e1233305d12f01670861b0c2c7a79514ca9d65df4ebea4b52fdf77d7"
+  }
+]

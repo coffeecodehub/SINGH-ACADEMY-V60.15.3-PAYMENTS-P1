@@ -1,0 +1,42 @@
+{
+  "release": "60.8.0",
+  "baseRelease": "60.7.0",
+  "nodeUsed": "22.16.0",
+  "backendTests": {
+    "pass": 743,
+    "fail": 0,
+    "skipped": 0
+  },
+  "reliabilityTests": {
+    "pass": 51,
+    "fail": 0,
+    "skipped": 0
+  },
+  "chromiumHeaderFixtures": {
+    "pass": 114,
+    "fail": 0,
+    "scope": "actual header JSX + stylesheet, controlled state, in-memory document; not a Next server"
+  },
+  "syntax": {
+    "frontendFiles": 102,
+    "backendFiles": 163,
+    "relativeImports": 257,
+    "errors": 0
+  },
+  "preservation": {
+    "unchangedFiles": 278,
+    "originalCssPrefixBytes": 59706,
+    "unexpectedChanges": 0
+  },
+  "notExecuted": [
+    "fresh npm dependency installation",
+    "dependency-backed tsc",
+    "next production build",
+    "fresh dependency audit",
+    "full Next browser navigation",
+    "real MongoDB transactions",
+    "live Hostinger acceptance",
+    "Stripe/PayPal remote verification",
+    "actual SMTP inbox delivery"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "60.15.3",
+  "runtime": "22.16.0",
+  "platform": "linux",
+  "status": "available-controlled-checks-passed",
+  "handoverReady": false,
+  "executed": [
+    {
+      "name": "backend controlled/unit",
+      "passed": 1035,
+      "failed": 0
+    },
+    {
+      "name": "frontend controlled/reliability",
+      "passed": 516,
+      "failed": 0
+    },
+    {
+      "name": "runtime/tooling",
+      "passed": 138,
+      "failed": 0
+    },
+    {
+      "name": "protected files",
+      "checked": 284,
+      "unexpectedDifferences": 0
+    },
+    {
+      "name": "source syntax/imports",
+      "errors": 0
+    }
+  ],
+  "notVerifiedHere": [
+    "fresh actual npm installation/audit",
+    "full installed-dependency TypeScript/Next build",
+    "actual Mongoose contract checks",
+    "Docker MongoDB integration (88 declared counted tests)",
+    "complete 75/46 browser suites",
+    "actual Cloudmersive account/clean/rejection response",
+    "Hostinger-to-scanner upload",
+    "full live handover"
+  ],
+  "blockers": [
+    "no project lockfiles or dependencies in supplied archive",
+    "npm registry DNS EAI_AGAIN",
+    "Docker unavailable",
+    "no external scanner account/key supplied"
+  ]
+}

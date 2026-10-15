@@ -1,0 +1,30 @@
+{
+  "scope": "Native Chromium in-memory DOM/CSS comparison only; no Next router, HTTP status or session test",
+  "status": "passed",
+  "cases": [
+    {
+      "width": 320,
+      "approvedStatusStylesMatch": true,
+      "overflow": false,
+      "scriptCount": 0
+    },
+    {
+      "width": 390,
+      "approvedStatusStylesMatch": true,
+      "overflow": false,
+      "scriptCount": 0
+    },
+    {
+      "width": 768,
+      "approvedStatusStylesMatch": true,
+      "overflow": false,
+      "scriptCount": 0
+    },
+    {
+      "width": 1440,
+      "approvedStatusStylesMatch": true,
+      "overflow": false,
+      "scriptCount": 0
+    }
+  ]
+}

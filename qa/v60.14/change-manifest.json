@@ -1,0 +1,336 @@
+{
+  "release": "60.14.0",
+  "baseline": "60.13.3",
+  "baselineZip": "Singh-Academy-V60.13.3.zip",
+  "baselineSha256": "8ecad658c3263c01e468d8d0d1a45848c482a02b774937cf25e681db80635b75",
+  "baselineFileCount": 1219,
+  "baselineDeletedFiles": [],
+  "unchangedBaselineFileCount": 1181,
+  "changedExistingFiles": [
+    {
+      "path": ".github/workflows/quality.yml",
+      "oldSha256": "c5f2b2da5effb8b03cd50b7080277b77657169c1a1a2170e2e163f83c224337f",
+      "newSha256": "f762e0fb8979898d5bc4b3d371b800819901d2951c3572f01b4972fee3fa9235"
+    },
+    {
+      "path": "README.md",
+      "oldSha256": "1a11fa1d382118b6a09eb1f6b7d1271e67fd75b373237c9a4bf9c9f152680944",
+      "newSha256": "b38475eea56147e7c8fa56041b2c33708376fe47443de8beff6e62ef728ff866"
+    },
+    {
+      "path": "backend/integration/v48-learning-review.test.js",
+      "oldSha256": "9933365783dd779aeae466bed57a0e9c23a037a8b35908924ea50653be494d22",
+      "newSha256": "12f863ed774fb325c320d07cfc47546bdfc6f62aa24d32c1d136d0b532e77c28"
+    },
+    {
+      "path": "backend/integration/v48-role-http.test.js",
+      "oldSha256": "dae8ff1e63cea25b525f102a773376e7844994b82433a49dc49b462c8d407ccf",
+      "newSha256": "cdec0f3c959190d873bffd8fd100023645f436c86f8a5640ff651c6dab39dc2f"
+    },
+    {
+      "path": "backend/package.json",
+      "oldSha256": "7a7f7acb7179dabe489af9922490bc8c782881d245cf689300b0fd9e3c18db15",
+      "newSha256": "a812488403f45ecdf60c735b5a4acddfb0064a305b085179f05741e6159a4ed8"
+    },
+    {
+      "path": "backend/src/app.js",
+      "oldSha256": "6d5bf35808a5987e3151324c179a91102768e1c426450e6b2ae8eb75851096d3",
+      "newSha256": "5fb9464b98e45670ff3d3cb8715762668632b7d056750d4cb34473fef7cca414"
+    },
+    {
+      "path": "backend/src/models/CheckoutOrder.js",
+      "oldSha256": "9df54a12201f1318cfd9a417c75f984dbdee6dcd899ec44005f7ee8de0bb8168",
+      "newSha256": "1534f62f2059d1a35baa30fb6f084594866ba57ca859245ee02fdbe4e1576080"
+    },
+    {
+      "path": "backend/src/models/TeamMember.js",
+      "oldSha256": "c89c82cd873a21fdb4878f16bc22a964b435ed52cf6c184a5eeb3de7973f23b7",
+      "newSha256": "bf5e186613c6a313635c27be993c8f6ed5691b3f2e98de0504c2cc4a365b79a5"
+    },
+    {
+      "path": "backend/src/routes/adminRoutes.js",
+      "oldSha256": "2b5d3aea02dec9c93862526e16d3918a1270343ea73b68725217986f358e2a22",
+      "newSha256": "391b9fd139ae7ebc4db13592d41da24b5f794e6b9f52efa6d8536560be5e1ddb"
+    },
+    {
+      "path": "backend/src/routes/contentRoutes.js",
+      "oldSha256": "8495fe9dbfd6164d93a16a3cff62c92deda9d6922d5bc4a535a510bf4b3dbf76",
+      "newSha256": "b5825ec373c3413bcb719459001d65a81df168c20700a1e22cd93818efd6ca36"
+    },
+    {
+      "path": "backend/src/routes/paymentRoutes.js",
+      "oldSha256": "37066b8ffb2e596d4148351a639bf5ad4ed3d8e80dbd4b2ab38635a987e8efe7",
+      "newSha256": "0fec93795e4ba72059c2e11b11c51c7f86544e9d6b4e7d77caaf5811b195b533"
+    },
+    {
+      "path": "backend/src/server.js",
+      "oldSha256": "2d8f946b221f69188d6371817a81fbef7810d8a74df264bfea861cfc61a3f552",
+      "newSha256": "ece36d6a24eaa6f1bf4138a81c5ebaf8df8589c51b4e0c8074a1cdf1dfc7cfd7"
+    },
+    {
+      "path": "backend/src/services/landingContent.js",
+      "oldSha256": "7cc329f7e2723241a644d6919f15c54e3dec937643be9f69bac4fc3ac4b2a47f",
+      "newSha256": "9dc70bac158f0f78008b73b582110974f3ff50a9bba969bfa438e2836b295ffb"
+    },
+    {
+      "path": "backend/src/services/onlineCheckout.js",
+      "oldSha256": "a127113a3df203556358e9afe280a69739cce8d34907ae212e634469f2f59aae",
+      "newSha256": "d28c1f8586059b5f63ec94e6fb4e2d5ae6d7456337086f36664928136b505291"
+    },
+    {
+      "path": "backend/src/services/paymentProviders.js",
+      "oldSha256": "bcc704b8bc75a4f8f3da2b53dc77801681a6dae14fa1e713a9d9674dd9036e76",
+      "newSha256": "c460db73a8399c2754c3081c86f77f74c53be26b8df084f13260940e38a2e366"
+    },
+    {
+      "path": "backend/src/utils/cmsValidation.js",
+      "oldSha256": "1b3e5054de9320e3015faedd5fa33b155fc094c945a7f1a5ca24edf65e3ef3d7",
+      "newSha256": "bec940274a5f9dcb01b39e823cb32a0a75e83d31f6fe87c4a3ffd17e6adf325d"
+    },
+    {
+      "path": "backend/test/cms-handlers.test.js",
+      "oldSha256": "862f24df5ce61514c2fc3e9dbb0c1810723dcd9bba92be2ee5ae7770e4482819",
+      "newSha256": "79930662f196d007ea034c001ea7ad29ecb4c04eed96d0c6fb9a26ec62760cfc"
+    },
+    {
+      "path": "backend/test/inMemoryModels.js",
+      "oldSha256": "0400aba9068956e7b36eafbdeba8336be31146204d6f833de58bb995d0777e94",
+      "newSha256": "55a5f278a01c0819557cca570278378889061c6b91b9bde0f5191ac6d371016b"
+    },
+    {
+      "path": "backend/test/v48-boundaries.test.js",
+      "oldSha256": "e5e2a90fb1fac084cc210348541f9a2c7b34e89c76df840c3e25f68605e474d8",
+      "newSha256": "838188f6b7a7d53f60625464401cfbe753b82bf8e0ea26bb140fe0ecf2888833"
+    },
+    {
+      "path": "backend/test/v60-10-policy.test.js",
+      "oldSha256": "704b539e3dbb8b6fd8f18f14b3b36b0e065f6cb8f52382f45de8c8f15e86c78e",
+      "newSha256": "fb488ba2be8f55e5375253a7946b5dc27a74ffc303da1fc2d2e8937b370bf013"
+    },
+    {
+      "path": "dev/test-mongo-compose.yml",
+      "oldSha256": "c1fc4b7b36aac0c09309962bf282ce79a3f4b9a548b35e0ce3630cc1ff3b3cc7",
+      "newSha256": "ccc3d4c5380c4504ea25ef0aeff3b7cd86017adc07da23f17ffc3e8c68b09323"
+    },
+    {
+      "path": "frontend/app/checkout/page.tsx",
+      "oldSha256": "5b9c7d84a56712689549a6def152cd0d85708b9e66431c04c41f86e9a5500306",
+      "newSha256": "a38e870afee1f3982e11a6c613659f8b5b4c2494b004a567fb202c6d578c2c57"
+    },
+    {
+      "path": "frontend/app/checkout/return/page.tsx",
+      "oldSha256": "810a1af541901999d62883ed717eb95f0a904cb63901e4d1a5bce94e5d966d5c",
+      "newSha256": "7c179a264ff6712c455729e3aa38ef0e257c9c872364d785f15f3d54b0952d8b"
+    },
+    {
+      "path": "frontend/app/page.tsx",
+      "oldSha256": "de07228948272a5803306fb221f877d23333e606060f8eca5523b78a41555923",
+      "newSha256": "4cbc7ef03a3695a5e4040f0b9abe3a009a5e1ec044516528af8cec8e7794ee48"
+    },
+    {
+      "path": "frontend/app/team/page.tsx",
+      "oldSha256": "49f1da5fb029ee898cf7ade17d10a1e027ce003d725d8d3fde4399d32cf85bc6",
+      "newSha256": "60477325201fe866c9297fe45427cac133f58f4471bea3c4dcabab4627c0a650"
+    },
+    {
+      "path": "frontend/components/business/BusinessPortal.tsx",
+      "oldSha256": "1d2407c725b214cd4db0da9ecf84e564ecf9063bd9797cac14bc28080c58080d",
+      "newSha256": "86faaa41ae21eec5d1b9aaf366f903c317821ad652ce68b6258a7af6bf257e83"
+    },
+    {
+      "path": "frontend/components/cms/ContentCollection.tsx",
+      "oldSha256": "ffdd701ba9bb6103dc26151997bcaca5cd066347cb3c398a35454cb7529021e5",
+      "newSha256": "ac4478539298aa04ec8df71051885714169a4fc4e6f9514c65c88a35c43de581"
+    },
+    {
+      "path": "frontend/e2e/public-portals.spec.ts",
+      "oldSha256": "e85a612828ce08eaf282401ffdf66ec6dcc0415425e04a122ec5cb60d815cd01",
+      "newSha256": "157bd5f89dcdd7361cb85a4bf745cdea24723fdf826a82e413b5ba1057599e5b"
+    },
+    {
+      "path": "frontend/lib/checkoutSafety.ts",
+      "oldSha256": "badbba052496abfe63a23dad3523121dd2dacc556498be10890164f1aaeaed3d",
+      "newSha256": "6217517154a2edc359e55dfb9b6131c8709bda6c5abeb851ae690e57d9ad00cc"
+    },
+    {
+      "path": "frontend/lib/imageSources.ts",
+      "oldSha256": "841f263d4ed7515ed16a4413d6439d12e2fba54aa08a4a534cfb7f404e80d26b",
+      "newSha256": "ab830560070f91af212608babc122152c8956f0d512bd98bf0c95b5d37e59601"
+    },
+    {
+      "path": "frontend/package.json",
+      "oldSha256": "fac734eb94f26b11bb34ea9a17c21d94b6b48df432799f837b1a746e8017c56f",
+      "newSha256": "728f8ea3c87f3e1861c580fe41a8b1680291544b0d3c6cc507e30855d8b024ec"
+    },
+    {
+      "path": "frontend/test/v60-10-reliability.test.mjs",
+      "oldSha256": "bdd103a58d68d228cc9ba9f46a7fb53138a3df1200242b67253f74d3f1f54320",
+      "newSha256": "59aa6b9eed4a65519439a6cd5d4d62a696ade55fd487ca88fcbf9edf4e4c041a"
+    },
+    {
+      "path": "frontend/test/v60-12-fixture-api.test.mjs",
+      "oldSha256": "526d044fec4d550b7c93e2a09cdb2714f7fc04f39f4afcfa1c29e861f87a5017",
+      "newSha256": "13436994e1feace44b335d1133510d6e6b1e274097a9b1aad71a2df8991af9d7"
+    },
+    {
+      "path": "frontend/test/v60-12-workflows.test.mjs",
+      "oldSha256": "1ddfb98b4bbe9c3f7c00f899209b31fe5261040f46a60cdfd438f15ba006b846",
+      "newSha256": "e64800ef9467edc76a3d02482b10393b8bc4174add6e0800f8cf2c03bbf595a8"
+    },
+    {
+      "path": "frontend/test/v60-13-2-player-gate.test.mjs",
+      "oldSha256": "573b3a5e3e3b4de06c11bcc8f01e704a34b5bb96296060ff348b447147239a56",
+      "newSha256": "40c5cb7b2dcf2fdd04520ed1a07fcb2940f759bf7c928fda7e1f8410739206d9"
+    },
+    {
+      "path": "frontend/ui-tests/payments-v60-12.spec.ts",
+      "oldSha256": "5a79120e00db2005bfed2db5a324e4d7716fb8e5c7562495d88d563fee096bae",
+      "newSha256": "a73a098adc4600192f3670e545c245c38f8ef8fe422e1ae3ca76ce0af61e4008"
+    },
+    {
+      "path": "package.json",
+      "oldSha256": "786a8a33252d5c1096517e02eec7edfcb9b1f151514f59ff9b3b0f6c29203c9d",
+      "newSha256": "ad46bf13034418a12c6ed691368a1345f513015d6e24547380294d89ef0c0755"
+    },
+    {
+      "path": "scripts/ui-fixture-api.mjs",
+      "oldSha256": "46f2f944874083c9768219e1ca04309a680b608615f7cfa46afe940b4727aa80",
+      "newSha256": "e19276cda00d7009694636ebe76adcbb7389943914b446ae2630f7aa86d33c43"
+    }
+  ],
+  "newSourceAndDocumentation": [
+    {
+      "path": "SINGH-ACADEMY-V60.14-LOCAL-GUIDE.md",
+      "sha256": "58c093cf341247830500594405a20de538c81a3f495d1fe4114a3097ad82a2e7"
+    },
+    {
+      "path": "SINGH-ACADEMY-V60.14-QA-REPORT.md",
+      "sha256": "49bbc629a5822abfaf3395627edb3d3940fb469e5586ff222849e3885fb505e8"
+    },
+    {
+      "path": "backend/integration/v60-14-payment-switch.test.js",
+      "sha256": "b12e5973cf33e0d7bf67fcc591e4ce3de9343f81f72a66d6e8045a10c4daf558"
+    },
+    {
+      "path": "backend/src/utils/teamCategories.js",
+      "sha256": "9b4bc32d1b1952a0728be6134851008699fa3a2275d9686157dc4c8b61f9f4dc"
+    },
+    {
+      "path": "backend/test/v60-14-switch-team.test.js",
+      "sha256": "5b0d4755f55d500939cf935eb01f835e9eac64adc0741071e41e2e87e831e1dd"
+    },
+    {
+      "path": "frontend/lib/teamCategories.ts",
+      "sha256": "2c6789f7f8ba31ec2e2bdfdc37c9ea87e04d9b0023a6bb2dcb3b84e946daca35"
+    },
+    {
+      "path": "frontend/test/v60-14-team.test.mjs",
+      "sha256": "84aadbb429f8a68a15a768ab81ef8f1fb2f50dc4a2e44b5fbaed2d4f25cf7ae2"
+    },
+    {
+      "path": "frontend/ui-tests/team-multi-v60-14.spec.ts",
+      "sha256": "52a9260f0948197f48ae4e5bcbb5f1252ccafc567950779bd9ca1de28f82c929"
+    }
+  ],
+  "existingStylesheets": [
+    {
+      "path": "frontend/app/admin/admin.css",
+      "unchanged": true,
+      "sha256": "f89251c6f88dbc2bc4a3d3928827d573da55ac4fd4b9240889cfccc1ac87461c"
+    },
+    {
+      "path": "frontend/app/auth.css",
+      "unchanged": true,
+      "sha256": "592a6de0b818e06d3696cea21b2c462c4927b7fff44fc8c5214121f3feaf4ba0"
+    },
+    {
+      "path": "frontend/app/billing/billing-v50.css",
+      "unchanged": true,
+      "sha256": "82ad3a2a585a1992bc6fdb46c483225af5503bfb68c11e44209b9af12aa608e3"
+    },
+    {
+      "path": "frontend/app/billing/subscriptions-v48.css",
+      "unchanged": true,
+      "sha256": "cce0172c1a19af64b43d41cba13bd179fa4ff6da3d3930a7dc781baa7008428a"
+    },
+    {
+      "path": "frontend/app/dashboard/student.css",
+      "unchanged": true,
+      "sha256": "bacc2af293815ca712bcaf28f1ae5db514c9d35d7da2b31b0befdf87f245006b"
+    },
+    {
+      "path": "frontend/app/integrated-lms.css",
+      "unchanged": true,
+      "sha256": "3fc92fcb65ae3ecd2dc4a191a3b2af6376cb9d7b19f5e9b1755a26408c352edc"
+    },
+    {
+      "path": "frontend/app/learn/[course]/answers-v50.css",
+      "unchanged": true,
+      "sha256": "fc2fe0abf7d3f23ab7f59e595869e0b0841c801ee0e0f3e8efdac0739f06d9c7"
+    },
+    {
+      "path": "frontend/app/learn/[course]/player.css",
+      "unchanged": true,
+      "sha256": "f75cb089fb70182d9f133909fbba7eda0232c4363a2a63a1fd1eed28b969c2ee"
+    },
+    {
+      "path": "frontend/app/styles.css",
+      "unchanged": true,
+      "sha256": "e509e36547a1421e179d63089cec57d76c9e38192d014dc201223a86a8c6294c"
+    },
+    {
+      "path": "frontend/components/business/business.css",
+      "unchanged": true,
+      "sha256": "743550873ea8ab721c5deda522bf383a33e6ce47eeb1680b12c33622d9790be0"
+    },
+    {
+      "path": "frontend/components/business/dashboard-v50.css",
+      "unchanged": true,
+      "sha256": "8e04349b31963cd8cc77d4a340014f33b187a257efdd8234171fbca648c04acd"
+    },
+    {
+      "path": "frontend/components/business/review-v48.css",
+      "unchanged": true,
+      "sha256": "96d311fab5cfd16c82f12d937c27bc9e0363f829559c02881610a8a406795cbc"
+    },
+    {
+      "path": "frontend/components/cms/photo-editor-v50.css",
+      "unchanged": true,
+      "sha256": "e20df455a1bed9bffa6515df5cc3fac7827b99a6988b1941fdd06e64f552e236"
+    }
+  ],
+  "dependenciesUnchanged": {
+    "package.json": {
+      "dependencies": true,
+      "devDependencies": true,
+      "engines": true,
+      "overrides": true
+    },
+    "backend/package.json": {
+      "dependencies": true,
+      "devDependencies": true,
+      "engines": true,
+      "overrides": true
+    },
+    "frontend/package.json": {
+      "dependencies": true,
+      "devDependencies": true,
+      "engines": true,
+      "overrides": true
+    }
+  },
+  "testResults": {
+    "backendUnit": 891,
+    "frontendControlled": 494,
+    "runtimeTools": 51,
+    "protectedFilesChecked": 284,
+    "declaredUiBrowserCasesNotExecuted": 71
+  },
+  "executedNode": "22.16.0",
+  "fullMongoIntegrationExecuted": false,
+  "fullNextBrowserExecuted": false,
+  "fullBuildExecuted": false,
+  "freshAuditExecuted": false,
+  "liveProviderCallsPerformed": false,
+  "deployedByAssistant": false
+}

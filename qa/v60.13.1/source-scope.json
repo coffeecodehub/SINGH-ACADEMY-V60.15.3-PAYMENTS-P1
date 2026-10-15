@@ -1,0 +1,18 @@
+{
+  "baseline": "V60.13 complete ZIP",
+  "updated": "60.13.1",
+  "baseFileCount": 1150,
+  "modified": [
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx",
+    "frontend/package.json",
+    "frontend/ui-tests/media-images-v60-13.spec.ts",
+    "package.json"
+  ],
+  "removed": [],
+  "onlyMetadataChangedInProduction": true,
+  "productionImagesUIStylesAuthPaymentsCertificateBytesUnchanged": true,
+  "note": "Current blocked release attempt is under qa/v60.13.1/release-attempt.json. Full Next/browser checks still required."
+}

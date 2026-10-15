@@ -1,0 +1,5 @@
+
+> singh-academy@60.8.0 check:release-ui
+> node scripts/check-release-ui.mjs
+
+278 unchanged protected files + original CSS prefix checked; 0 unexpected differences. Requested certificate renderer/tablet additions tracked separately.

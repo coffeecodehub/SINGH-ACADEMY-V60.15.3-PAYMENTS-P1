@@ -1,0 +1,20 @@
+{
+  "browser": "144.0.7559.96",
+  "scope": "set_content markup checks ONLY; browser network navigation blocked by environment policy; not the Next/React application suite",
+  "tests": [
+    {
+      "name": "stripe fixture markup/Unicode/return links",
+      "passed": true
+    },
+    {
+      "name": "paypal fixture markup/Unicode/return links",
+      "passed": true
+    },
+    {
+      "name": "payment error + Next-style route announcer coexist",
+      "passed": true,
+      "oldLocatorMatches": 2,
+      "scopedLocatorMatches": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+git apply --check SINGH-ACADEMY-V60.11-SOURCE.patch against a fresh V60.10 extraction: PASS

@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: Payment verification-source enum remains production-only and the fixture uses provider_api
+ok 1 - Payment verification-source enum remains production-only and the fixture uses provider_api
+  ---
+  duration_ms: 4.948289
+  type: 'test'
+  ...
+# Subtest: stripe/test/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 2 - stripe/test/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 34.010287
+  type: 'test'
+  ...
+# Subtest: stripe/test/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 3 - stripe/test/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 7.875798
+  type: 'test'
+  ...
+# Subtest: stripe/live/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 4 - stripe/live/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 5.595254
+  type: 'test'
+  ...
+# Subtest: stripe/live/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 5 - stripe/live/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 2.533002
+  type: 'test'
+  ...
+# Subtest: paypal/test/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 6 - paypal/test/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 13.131918
+  type: 'test'
+  ...
+# Subtest: paypal/test/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 7 - paypal/test/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 1.837124
+  type: 'test'
+  ...
+# Subtest: paypal/live/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 8 - paypal/live/course: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 4.021214
+  type: 'test'
+  ...
+# Subtest: paypal/live/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+ok 9 - paypal/live/membership: exact synthetic evidence validates against actual CheckoutOrder and Payment models
+  ---
+  duration_ms: 5.312098
+  type: 'test'
+  ...
+# Subtest: actual Payment validation rejects the reported integration_fixture value; no schema bypass
+ok 10 - actual Payment validation rejects the reported integration_fixture value; no schema bypass
+  ---
+  duration_ms: 6.888363
+  type: 'test'
+  ...
+# Subtest: actual Payment validation still rejects invalid money and missing owner
+ok 11 - actual Payment validation still rejects invalid money and missing owner
+  ---
+  duration_ms: 4.151043
+  type: 'test'
+  ...
+# Subtest: fixture creation and model validation open no database connection
+ok 12 - fixture creation and model validation open no database connection
+  ---
+  duration_ms: 0.859297
+  type: 'test'
+  ...
+# Subtest: actual Express/Stripe verifies a valid signed raw body and rejects tampering/unsigned payloads
+ok 13 - actual Express/Stripe verifies a valid signed raw body and rejects tampering/unsigned payloads
+  ---
+  duration_ms: 371.399391
+  type: 'test'
+  ...
+# Subtest: actual Express PayPal route preserves webhook bytes for postback and rejects failed verification
+ok 14 - actual Express PayPal route preserves webhook bytes for postback and rejects failed verification
+  ---
+  duration_ms: 14.536328
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1726.103145

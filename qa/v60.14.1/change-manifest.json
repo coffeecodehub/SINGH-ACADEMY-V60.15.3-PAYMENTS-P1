@@ -1,0 +1,75 @@
+{
+  "baseline": "Supplied Singh-Academy-V60.14.zip",
+  "candidate": "60.14.1",
+  "existingFilesChanged": [
+    {
+      "file": "backend/package.json",
+      "oldSha256": "a812488403f45ecdf60c735b5a4acddfb0064a305b085179f05741e6159a4ed8",
+      "newSha256": "3878b6d605fe44df9f2b5908a203f2782396205c6c3096731b28dcf3dd4761b2"
+    },
+    {
+      "file": "backend/src/app.js",
+      "oldSha256": "5fb9464b98e45670ff3d3cb8715762668632b7d056750d4cb34473fef7cca414",
+      "newSha256": "7d81ed984c4d6b3b87de8efe28d723a1dd8a99a02385af05227c4b558ccdeb9c"
+    },
+    {
+      "file": "backend/src/server.js",
+      "oldSha256": "ece36d6a24eaa6f1bf4138a81c5ebaf8df8589c51b4e0c8074a1cdf1dfc7cfd7",
+      "newSha256": "fed39ad0fa4feda227cc753517e0968e797fd40a8f049870de07007351f35e0b"
+    },
+    {
+      "file": "frontend/components/business/BusinessPortal.tsx",
+      "oldSha256": "86faaa41ae21eec5d1b9aaf366f903c317821ad652ce68b6258a7af6bf257e83",
+      "newSha256": "a9d3e476de2e1276b6e52d3b99f097c4342c9c7034e6598f8e95388bbb3e0e5d"
+    },
+    {
+      "file": "frontend/package.json",
+      "oldSha256": "728f8ea3c87f3e1861c580fe41a8b1680291544b0d3c6cc507e30855d8b024ec",
+      "newSha256": "bfa0129277e39082ade198311c8ca0ba8547ba4131b5343d24ca22ebe6c6de5d"
+    },
+    {
+      "file": "package.json",
+      "oldSha256": "ad46bf13034418a12c6ed691368a1345f513015d6e24547380294d89ef0c0755",
+      "newSha256": "acead3f62adde43cb4c5681ae69400b30ac4931dbdca39abf238fbf4c130e740"
+    },
+    {
+      "file": "scripts/install.mjs",
+      "oldSha256": "7b0d7f0e3506f947c50ef41fd4dce32d40d6af8c963d5e463bb87e86e19aa774",
+      "newSha256": "262e8e82c2f5cd8f48d9eca05f5a165aa788f53dc61c4c2745103c988cdf622e"
+    },
+    {
+      "file": "scripts/verify.mjs",
+      "oldSha256": "b793affb3f042b6104213cad8fc90f3d1d98277915161efb925b054c002e59bb",
+      "newSha256": "9a8d0506f971d2e95f9e1e93a700cbc3800ef4ec474f88331611b7342a8180e4"
+    }
+  ],
+  "newFiles": [
+    "qa/release-checks.json",
+    "qa/security-dependencies.json",
+    "qa/v60.14.1/backend-tests.log",
+    "qa/v60.14.1/ci-lock-refusal.json",
+    "qa/v60.14.1/ci-lock-refusal.log",
+    "qa/v60.14.1/frontend-tests.log",
+    "qa/v60.14.1/manifest-check.log",
+    "qa/v60.14.1/npm-cli-experiment.json",
+    "qa/v60.14.1/npm-cli-experiment.log",
+    "qa/v60.14.1/preserved-ui.log",
+    "qa/v60.14.1/release-attempt.json",
+    "qa/v60.14.1/release-attempt.log",
+    "qa/v60.14.1/script-syntax.log",
+    "qa/v60.14.1/source-check.log",
+    "qa/v60.14.1/tooling-tests.log",
+    "qa/v60.14.1/workflow-check.json",
+    "scripts/check-security-deps.mjs",
+    "scripts/refresh-security-locks.mjs",
+    "scripts/security-audit.mjs",
+    "scripts/security-dependency-policy.mjs",
+    "scripts/test/security-dependencies.test.mjs"
+  ],
+  "deletedFiles": [],
+  "cssFilesCompared": 13,
+  "cssIdentical": true,
+  "publicAndBackendAssetFilesCompared": 253,
+  "assetsIdentical": true,
+  "applicationLogicChanges": "None. Three application files contain release-label substitutions only. Dependency manifests and release/install/security tooling are the active changes."
+}

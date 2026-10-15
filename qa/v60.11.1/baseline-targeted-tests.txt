@@ -1,0 +1,237 @@
+TAP version 13
+# Subtest: SSR-authenticated header does not expose an enabled inert Logout button
+not ok 1 - SSR-authenticated header does not expose an enabled inert Logout button
+  ---
+  duration_ms: 34.323813
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:16:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - 'false'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'false'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:18:9)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: server and first hydration render have identical account-control trees
+ok 2 - server and first hydration render have identical account-control trees
+  ---
+  duration_ms: 34.964476
+  type: 'test'
+  ...
+# Subtest: hydration enables Logout and the immediate first click calls the provider once
+not ok 3 - hydration enables Logout and the immediate first click calls the provider once
+  ---
+  duration_ms: 14.612389
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:26:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - 'true'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'true'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:28:9)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: double logout click before a rerender is synchronously deduplicated
+not ok 4 - double logout click before a rerender is synchronously deduplicated
+  ---
+  duration_ms: 16.379307
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:31:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    2 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 2
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:33:92)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: provider-level signing out also disables stale header controls
+not ok 5 - provider-level signing out also disables stale header controls
+  ---
+  duration_ms: 12.886752
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:37:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    false !== true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:38:91)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: menu hydration gate does not change the hydrated menu layout/classes
+not ok 6 - menu hydration gate does not change the hydrated menu layout/classes
+  ---
+  duration_ms: 11.130108
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:40:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:41:60)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: guest header still links to login with a preserved destination and offers no logout
+ok 7 - guest header still links to login with a preserved destination and offers no logout
+  ---
+  duration_ms: 17.124967
+  type: 'test'
+  ...
+# Subtest: Next config preserves raw middleware URLs in development
+not ok 8 - Next config preserves raw middleware URLs in development
+  ---
+  duration_ms: 9.924224
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:47:48'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:49:9)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Next config preserves raw middleware URLs in production
+not ok 9 - Next config preserves raw middleware URLs in production
+  ---
+  duration_ms: 2.902809
+  type: 'test'
+  location: '/mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:47:48'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///mnt/data/v6011_patch_work/SINGH-ACADEMY-V60.11-COMPLETE/frontend/test/v60-11-1-auth-controls.test.mjs:49:9)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://127.0.0.1:3108
+ok 10 - middleware auth redirect retains exact protocol, hostname and port: http://127.0.0.1:3108
+  ---
+  duration_ms: 8.446546
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://localhost:3108
+ok 11 - middleware auth redirect retains exact protocol, hostname and port: http://localhost:3108
+  ---
+  duration_ms: 5.368167
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://[::1]:3108
+ok 12 - middleware auth redirect retains exact protocol, hostname and port: http://[::1]:3108
+  ---
+  duration_ms: 4.545302
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: https://singhacademy.com
+ok 13 - middleware auth redirect retains exact protocol, hostname and port: https://singhacademy.com
+  ---
+  duration_ms: 6.141647
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: https://staging.example.invalid
+ok 14 - middleware auth redirect retains exact protocol, hostname and port: https://staging.example.invalid
+  ---
+  duration_ms: 4.603629
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 7
+# fail 7
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 443.77531

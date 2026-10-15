@@ -1,0 +1,7 @@
+{
+  "scope": "Chromium + actual API client/gateway against local emulated upstream",
+  "status": "BLOCKED_BEFORE_FIRST_PAGE",
+  "passed": 0,
+  "error": "Browser environment policy returned net::ERR_BLOCKED_BY_ADMINISTRATOR for the localhost test page. No browser acceptance pass is claimed.",
+  "other_tests": "Node API/gateway tests, including real HTTP raw-byte streaming, run separately."
+}

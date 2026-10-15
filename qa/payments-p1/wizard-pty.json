@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "credentialValues": "synthetic and intentionally invalid",
+  "interactivePrompts": 6,
+  "noSecretEcho": true,
+  "envFileUnchanged": true,
+  "localValidationRefusedBeforeProviderAuthentication": true,
+  "productionChanged": false,
+  "commandExitCode": 1
+}

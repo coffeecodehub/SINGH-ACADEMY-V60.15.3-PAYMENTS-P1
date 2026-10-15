@@ -1,0 +1,119 @@
+{
+  "version": "60.15.3",
+  "comparedAt": "2026-10-07T17:57:57.766871+00:00",
+  "baseZipSha256": "ebe9938a8d8d02d07ecc5da1cbed7a55e5f9ed37d9876561d2b4e8049a2f8620",
+  "baseFileCount": 1343,
+  "unchangedOriginalFiles": 1326,
+  "deletedOriginalFiles": [],
+  "changedOriginalFiles": [
+    {
+      "path": "CURRENT-RELEASE.md",
+      "reason": "Current release scope and truthful verification boundary",
+      "beforeSha256": "e17944a2c110491b8bc95123b8724f8e2d4c960fbf27f1d49f4ff278cbbd03c2",
+      "afterSha256": "d404f3d14623fab6030d1e6b497db8ccc108fd507e7a2447405b91c7f9ecfa40"
+    },
+    {
+      "path": "README.md",
+      "reason": "Current release/setup guidance",
+      "beforeSha256": "9838aa552ea2646dc60f3bb4655dc936e47d90c495b44a3d1f7a1a09f34fd2a4",
+      "afterSha256": "09031cc3e8d2346db8e1a1cd3e7664eb8f4b72f50336b0170a0031216267004f"
+    },
+    {
+      "path": "backend/.env.example",
+      "reason": "Backend-only scanner provider, secret placeholder and byte cap",
+      "beforeSha256": "2cd51610dd9c7cb81e6f42bc5f6ea3fff3c36eb733352cac8952609858d32458",
+      "afterSha256": "78e249e0188dbfb21ce057848d09672b5ed46b5d1758bd0d77b66fb1679c1c5a"
+    },
+    {
+      "path": "backend/integration/isolation.js",
+      "reason": "Strip external scanner key; deterministic local test defaults",
+      "beforeSha256": "770c567621fcc474c48a3e9a2163a69cbebd891ab655d065986865353bba3dc4",
+      "afterSha256": "9c6c97e56ed0d56c4723f3dc58e11381f6ea4e49677b0b355c13c863b42f69a9"
+    },
+    {
+      "path": "backend/package.json",
+      "reason": "Version and explicit scan:check command only",
+      "beforeSha256": "1dbeb19f29bc7dda88dd4e1f38620eefeb213a5568c2c0d5069de8ff43ed3800",
+      "afterSha256": "c5dbaf982c1d33877284bd8cc1314998a0a56297eeaa00ae13f0cc1f3c7b85bc"
+    },
+    {
+      "path": "backend/src/app.js",
+      "reason": "Health version label only",
+      "beforeSha256": "496067edd637a0eb52704bee5f9a3cef098e938f29b98681ba392761146fcea5",
+      "afterSha256": "09984adc62a3c1172ad8057e2999ddea6fe71e4a9315d62322e4abdeacad8cbd"
+    },
+    {
+      "path": "backend/src/scripts/checkHandover.js",
+      "reason": "Add external upload scanner/hosted upload acceptance reminder",
+      "beforeSha256": "9986727d1306a77bcf4740ee6f25f73f99ddc68f1e0bddb01c18d27f64e38c6b",
+      "afterSha256": "6b1e72cfd2e2d7db57ef89062177ca04ebb05e930e9f5fa61925fe6659197f8c"
+    },
+    {
+      "path": "backend/src/server.js",
+      "reason": "Startup version label only",
+      "beforeSha256": "bc82e2bff7d10a2f0815e89d67657ea3fee566898883e28d59ef37f64e5a0b54",
+      "afterSha256": "76570050ac7910680046e15d24aa4f01a3bd685485b24107342a6f8f806f555c"
+    },
+    {
+      "path": "backend/src/services/uploadScan.js",
+      "reason": "Scanner selection and preservation of legacy private ClamAV path",
+      "beforeSha256": "9ea996f8e2bf69c6d812012fa1bf20b8f29cdfbdaae2f2c7b6b88170b5b3e5b4",
+      "afterSha256": "729a162fb4873a82e825296f4c337d3f7d665fb80af184341cbd61f87e2b42fb"
+    },
+    {
+      "path": "backend/src/services/uploads.js",
+      "reason": "Pass already-validated MIME to scanner; existing pipeline otherwise unchanged",
+      "beforeSha256": "ef6263518f9824a84abd56271d95e304cc6e2f1a628afab7b6ebc74b1b90832f",
+      "afterSha256": "26845b7c814074e741fa76484edb074ac8f3bcba29a43947a135518f337a1f87"
+    },
+    {
+      "path": "backend/src/utils/deployment.js",
+      "reason": "Validate selected scanner instead of requiring ClamAV for HTTPS option",
+      "beforeSha256": "dd8aa7c7969536d7dcc381ee10a475fb765e7b7392c40d2d4575d76821dfbc69",
+      "afterSha256": "8fa33fad0e47022c0a1d93a131ba4cee11f7b649d45f8d697c95ce26355f1d11"
+    },
+    {
+      "path": "frontend/components/business/BusinessPortal.tsx",
+      "reason": "Existing internal version text only",
+      "beforeSha256": "c614a7010254f01d3539972bebd36cdd9e1f3a4b53149205797073fb142bb4b2",
+      "afterSha256": "b925ad3aa538eb86c15cce5d2da3bd6baca62395e6eef5f9a92577659a43deac"
+    },
+    {
+      "path": "frontend/e2e/public-portals.spec.ts",
+      "reason": "Retain user-approved Main navigation selector from successful CI commit",
+      "beforeSha256": "157bd5f89dcdd7361cb85a4bf745cdea24723fdf826a82e413b5ba1057599e5b",
+      "afterSha256": "f4e81dd564a6a4a31361175c10d79886bed5da73244dbd41a9ba54797c2c45d1"
+    },
+    {
+      "path": "frontend/package.json",
+      "reason": "Version only",
+      "beforeSha256": "b124ee788529f9dd943d17626b1265761d076ed1e77a272135744c01c6207639",
+      "afterSha256": "95b1cbe499f3b5df7aeee6c94acb5bc5933e3e7c7828cd5f17b95e4ea25d0db6"
+    },
+    {
+      "path": "package.json",
+      "reason": "Version and explicit scan:check command only",
+      "beforeSha256": "eb28a90cf8dbb382fa772893cf1b093af09c10d644d9cd58aa55d40d4efec91c",
+      "afterSha256": "fcca7ed66a4c5778a763f833d41ab77564b8eca13a31f3ea121e5f7b247e6568"
+    },
+    {
+      "path": "scripts/integration-check.mjs",
+      "reason": "Remove external scanner key from fixture test environment",
+      "beforeSha256": "db5736457784c4f4ca214a7ddee1d514f06552bc130258f75f520a37a3440074",
+      "afterSha256": "fda3f4fb63f345f9d550ac522ce13187e8c45b0f2a9b8cc6e1d6a6bd81af9938"
+    },
+    {
+      "path": "scripts/release-check.mjs",
+      "reason": "Record external scanner acceptance as not covered by local gate",
+      "beforeSha256": "c797f957e1c9a6ea6be93f1f97de60ee5504291af15150a1ef2223e0da2d7d9e",
+      "afterSha256": "748def97202503387c3d473ab5293a961ea78c69d1e28928d741736a197069cf"
+    }
+  ],
+  "cssIdentical": 13,
+  "assetDirectoryFilesIdentical": 268,
+  "dependencyAndEngineDeclarationsUnchanged": true,
+  "ciWorkflowUnchanged": true,
+  "dockerComposeUnchanged": true,
+  "productionChangeBoundary": "Scanner support/configuration only, with one validated-MIME argument at existing upload call. Backend app/server/frontend business version labels only. Previously user-approved test locator restored.",
+  "secretsOrLockfilesInvented": false
+}

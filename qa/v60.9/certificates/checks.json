@@ -1,0 +1,11 @@
+{
+  "pages": 1,
+  "size": [
+    841.8900146484375,
+    595.280029296875
+  ],
+  "dynamicTextVerified": true,
+  "verificationLinkVerified": true,
+  "renderer": "PyMuPDF",
+  "certificateSourceAndAssets": "byte-identical to V60.8 baseline"
+}

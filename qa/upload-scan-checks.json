@@ -1,0 +1,17 @@
+{
+  "version": "60.15.3",
+  "startedAt": "2026-10-09T18:46:57.433Z",
+  "status": "passed",
+  "handoverReady": false,
+  "mode": "configuration-only",
+  "scope": "Only this executing machine/environment. Not proof of Hostinger reachability when run on a local PC, nor a guarantee against unknown malware.",
+  "checks": [
+    {
+      "name": "Selected scanner configuration (not connectivity)",
+      "passed": true
+    }
+  ],
+  "provider": "cloudmersive",
+  "maxFileBytes": 3500000,
+  "finishedAt": "2026-10-09T18:46:57.440Z"
+}

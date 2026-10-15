@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: SSR-authenticated header does not expose an enabled inert Logout button
+ok 1 - SSR-authenticated header does not expose an enabled inert Logout button
+  ---
+  duration_ms: 33.592765
+  type: 'test'
+  ...
+# Subtest: server and first hydration render have identical account-control trees
+ok 2 - server and first hydration render have identical account-control trees
+  ---
+  duration_ms: 36.505563
+  type: 'test'
+  ...
+# Subtest: hydration enables Logout and the immediate first click calls the provider once
+ok 3 - hydration enables Logout and the immediate first click calls the provider once
+  ---
+  duration_ms: 12.299428
+  type: 'test'
+  ...
+# Subtest: double logout click before a rerender is synchronously deduplicated
+ok 4 - double logout click before a rerender is synchronously deduplicated
+  ---
+  duration_ms: 10.53364
+  type: 'test'
+  ...
+# Subtest: provider-level signing out also disables stale header controls
+ok 5 - provider-level signing out also disables stale header controls
+  ---
+  duration_ms: 11.013825
+  type: 'test'
+  ...
+# Subtest: menu hydration gate does not change the hydrated menu layout/classes
+ok 6 - menu hydration gate does not change the hydrated menu layout/classes
+  ---
+  duration_ms: 15.174705
+  type: 'test'
+  ...
+# Subtest: guest header still links to login with a preserved destination and offers no logout
+ok 7 - guest header still links to login with a preserved destination and offers no logout
+  ---
+  duration_ms: 12.205679
+  type: 'test'
+  ...
+# Subtest: Next config preserves raw middleware URLs in development
+ok 8 - Next config preserves raw middleware URLs in development
+  ---
+  duration_ms: 4.695075
+  type: 'test'
+  ...
+# Subtest: Next config preserves raw middleware URLs in production
+ok 9 - Next config preserves raw middleware URLs in production
+  ---
+  duration_ms: 2.873274
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://127.0.0.1:3108
+ok 10 - middleware auth redirect retains exact protocol, hostname and port: http://127.0.0.1:3108
+  ---
+  duration_ms: 9.324472
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://localhost:3108
+ok 11 - middleware auth redirect retains exact protocol, hostname and port: http://localhost:3108
+  ---
+  duration_ms: 5.374115
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: http://[::1]:3108
+ok 12 - middleware auth redirect retains exact protocol, hostname and port: http://[::1]:3108
+  ---
+  duration_ms: 7.228344
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: https://singhacademy.com
+ok 13 - middleware auth redirect retains exact protocol, hostname and port: https://singhacademy.com
+  ---
+  duration_ms: 4.688776
+  type: 'test'
+  ...
+# Subtest: middleware auth redirect retains exact protocol, hostname and port: https://staging.example.invalid
+ok 14 - middleware auth redirect retains exact protocol, hostname and port: https://staging.example.invalid
+  ---
+  duration_ms: 9.781692
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 430.782988

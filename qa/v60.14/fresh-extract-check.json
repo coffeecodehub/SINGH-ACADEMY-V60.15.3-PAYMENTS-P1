@@ -1,0 +1,32 @@
+{
+  "release": "60.14.0",
+  "archiveEntriesComparedBeforeFinalDocumentation": 1237,
+  "byteDifferences": [],
+  "freshExtractRuns": {
+    "backend": {
+      "exitCode": 0,
+      "log": "fresh-extract-backend.log"
+    },
+    "frontend": {
+      "exitCode": 0,
+      "log": "fresh-extract-frontend.log"
+    },
+    "runtime": {
+      "exitCode": 0,
+      "log": "fresh-extract-runtime.log"
+    },
+    "source": {
+      "exitCode": 0,
+      "log": "fresh-extract-source.log"
+    },
+    "protected": {
+      "exitCode": 0,
+      "log": "fresh-extract-protected.log"
+    }
+  },
+  "backendTests": 891,
+  "frontendControlledTests": 494,
+  "runtimeTests": 51,
+  "fullApplicationTypecheckBuildBrowserMongoIntegrationExecuted": false,
+  "finalArchiveRebuiltAfterDocumentationOnly": true
+}

@@ -1,0 +1,2 @@
+17 footer viewport fixtures: 17 pass, 0 fail
+No horizontal clipping; actual contact links retained.

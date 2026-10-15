@@ -1,0 +1,1957 @@
+[
+  {
+    "width": 320,
+    "scrollWidth": 320,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 99.1875,
+        "right": 135.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 145.1875,
+        "right": 181.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 191.1875,
+        "right": 227.1875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 237.1875,
+        "right": 273.1875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 19.1875,
+        "right": 146,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 174,
+        "right": 300.8125,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 174,
+        "right": 300.8125,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 19.1875,
+        "right": 300.8125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 19.1875,
+        "right": 300.8125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 19.1875,
+        "right": 300.8125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 19.1875,
+        "right": 146,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 16,
+        "right": 179.890625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 375,
+    "scrollWidth": 375,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 102.5,
+        "right": 138.5,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 148.5,
+        "right": 184.5,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 194.5,
+        "right": 230.5,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 240.5,
+        "right": 276.5,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 201.5,
+        "right": 352.5,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 201.5,
+        "right": 352.5,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 22.5,
+        "right": 352.5,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 22.5,
+        "right": 352.5,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 22.5,
+        "right": 352.5,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 22.5,
+        "right": 173.5,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 18.75,
+        "right": 182.640625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 103.390625,
+        "right": 139.390625,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 149.390625,
+        "right": 185.390625,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 195.390625,
+        "right": 231.390625,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 241.390625,
+        "right": 277.390625,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 23.390625,
+        "right": 181,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 209,
+        "right": 366.609375,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 209,
+        "right": 366.609375,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 23.390625,
+        "right": 366.609375,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 23.390625,
+        "right": 366.609375,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 23.390625,
+        "right": 366.609375,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 23.390625,
+        "right": 181,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 19.5,
+        "right": 183.390625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 420,
+    "scrollWidth": 420,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 105.1875,
+        "right": 141.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 151.1875,
+        "right": 187.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 197.1875,
+        "right": 233.1875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 243.1875,
+        "right": 279.1875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 25.1875,
+        "right": 196,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 224,
+        "right": 394.8125,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 224,
+        "right": 394.8125,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 25.1875,
+        "right": 394.8125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 25.1875,
+        "right": 394.8125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 25.1875,
+        "right": 394.8125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 25.1875,
+        "right": 196,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 21,
+        "right": 184.890625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 560,
+    "scrollWidth": 560,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 113.59375,
+        "right": 149.59375,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 159.59375,
+        "right": 195.59375,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 205.59375,
+        "right": 241.59375,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 251.59375,
+        "right": 287.59375,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 33.59375,
+        "right": 266,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 33.59375,
+        "right": 266,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 33.59375,
+        "right": 266,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 33.59375,
+        "right": 266,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 33.59375,
+        "right": 266,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 33.59375,
+        "right": 266,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 33.59375,
+        "right": 266,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 294,
+        "right": 526.40625,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 28,
+        "right": 191.890625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 126.078125,
+        "right": 162.078125,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 172.078125,
+        "right": 208.078125,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 218.078125,
+        "right": 254.078125,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 264.078125,
+        "right": 300.078125,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 46.078125,
+        "right": 370,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 46.078125,
+        "right": 370,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 46.078125,
+        "right": 370,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 46.078125,
+        "right": 370,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 46.078125,
+        "right": 370,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 46.078125,
+        "right": 370,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 46.078125,
+        "right": 370,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 398,
+        "right": 721.921875,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 38.390625,
+        "right": 202.28125,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 820,
+    "scrollWidth": 820,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 129.1875,
+        "right": 165.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 175.1875,
+        "right": 211.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 221.1875,
+        "right": 257.1875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 267.1875,
+        "right": 303.1875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 49.1875,
+        "right": 396,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 49.1875,
+        "right": 396,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 49.1875,
+        "right": 396,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 49.1875,
+        "right": 396,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 49.1875,
+        "right": 396,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 49.1875,
+        "right": 396,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 49.1875,
+        "right": 396,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 424,
+        "right": 770.8125,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 41,
+        "right": 204.890625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 900,
+    "scrollWidth": 900,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 134,
+        "right": 170,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 180,
+        "right": 216,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 226,
+        "right": 262,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 272,
+        "right": 308,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 54,
+        "right": 436,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 54,
+        "right": 436,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 54,
+        "right": 436,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 54,
+        "right": 436,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 464,
+        "right": 846,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 464,
+        "right": 846,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 54,
+        "right": 436,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 54,
+        "right": 436,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 54,
+        "right": 436,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 464,
+        "right": 846,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 464,
+        "right": 846,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 464,
+        "right": 846,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 464,
+        "right": 846,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 45,
+        "right": 208.890625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 901,
+    "scrollWidth": 901,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 45.046875,
+        "right": 81.046875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 91.046875,
+        "right": 127.046875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 137.046875,
+        "right": 173.046875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 183.046875,
+        "right": 219.046875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 356.125,
+        "right": 592.03125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 620.03125,
+        "right": 855.953125,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 692.0625,
+        "right": 855.953125,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1024,
+    "scrollWidth": 1024,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 51.1875,
+        "right": 87.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 97.1875,
+        "right": 133.1875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 143.1875,
+        "right": 179.1875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 189.1875,
+        "right": 225.1875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 403.796875,
+        "right": 674.296875,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 702.296875,
+        "right": 972.8125,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 808.921875,
+        "right": 972.8125,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1199,
+    "scrollWidth": 1199,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 59.9375,
+        "right": 95.9375,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 105.9375,
+        "right": 141.9375,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 151.9375,
+        "right": 187.9375,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 197.9375,
+        "right": 233.9375,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 471.609375,
+        "right": 791.328125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 819.328125,
+        "right": 1139.0625,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 975.171875,
+        "right": 1139.0625,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1200,
+    "scrollWidth": 1200,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 60,
+        "right": 96,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 106,
+        "right": 142,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 152,
+        "right": 188,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 198,
+        "right": 234,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 368.609375,
+        "right": 514.015625,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 368.609375,
+        "right": 514.015625,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 368.609375,
+        "right": 514.015625,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 368.609375,
+        "right": 514.015625,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 550.015625,
+        "right": 695.40625,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 550.015625,
+        "right": 695.40625,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 731.40625,
+        "right": 958.59375,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 731.40625,
+        "right": 958.59375,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 731.40625,
+        "right": 958.59375,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 994.59375,
+        "right": 1140,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 994.59375,
+        "right": 1140,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 994.59375,
+        "right": 1140,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 994.59375,
+        "right": 1140,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 976.109375,
+        "right": 1140,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1228,
+    "scrollWidth": 1228,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 61.390625,
+        "right": 97.390625,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 107.390625,
+        "right": 143.390625,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 153.390625,
+        "right": 189.390625,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 199.390625,
+        "right": 235.390625,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 377.21875,
+        "right": 526.015625,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 377.21875,
+        "right": 526.015625,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 377.21875,
+        "right": 526.015625,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 377.21875,
+        "right": 526.015625,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 562.84375,
+        "right": 711.640625,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 562.84375,
+        "right": 711.640625,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 748.46875,
+        "right": 980.96875,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 748.46875,
+        "right": 980.96875,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 748.46875,
+        "right": 980.96875,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 1017.796875,
+        "right": 1166.59375,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 1017.796875,
+        "right": 1166.59375,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 1017.796875,
+        "right": 1166.59375,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 1017.796875,
+        "right": 1166.59375,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 1002.71875,
+        "right": 1166.609375,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1366,
+    "scrollWidth": 1366,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 68.296875,
+        "right": 104.296875,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 114.296875,
+        "right": 150.296875,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 160.296875,
+        "right": 196.296875,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 206.296875,
+        "right": 242.296875,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 419.609375,
+        "right": 585.125,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 419.609375,
+        "right": 585.125,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 419.609375,
+        "right": 585.125,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 419.609375,
+        "right": 585.125,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 626.09375,
+        "right": 791.609375,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 626.09375,
+        "right": 791.609375,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 832.578125,
+        "right": 1091.203125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 832.578125,
+        "right": 1091.203125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 832.578125,
+        "right": 1091.203125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 1132.171875,
+        "right": 1297.6875,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 1132.171875,
+        "right": 1297.6875,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 1132.171875,
+        "right": 1297.6875,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 1132.171875,
+        "right": 1297.6875,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 1133.8125,
+        "right": 1297.703125,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 72,
+        "right": 108,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 118,
+        "right": 154,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 164,
+        "right": 200,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 210,
+        "right": 246,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 442.34375,
+        "right": 616.828125,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 442.34375,
+        "right": 616.828125,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 442.34375,
+        "right": 616.828125,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 442.34375,
+        "right": 616.828125,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 660.015625,
+        "right": 834.5,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 660.015625,
+        "right": 834.5,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 877.6875,
+        "right": 1150.3125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 877.6875,
+        "right": 1150.3125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 877.6875,
+        "right": 1150.3125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 1193.5,
+        "right": 1368,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 1193.5,
+        "right": 1368,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 1193.5,
+        "right": 1368,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 1193.5,
+        "right": 1368,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 1204.109375,
+        "right": 1368,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1700,
+    "scrollWidth": 1700,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 175,
+        "right": 211,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 221,
+        "right": 257,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 267,
+        "right": 303,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 313,
+        "right": 349,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 560.28125,
+        "right": 740.15625,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 560.28125,
+        "right": 740.15625,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 560.28125,
+        "right": 740.15625,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 560.28125,
+        "right": 740.15625,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 788.15625,
+        "right": 968.046875,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 788.15625,
+        "right": 968.046875,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 1016.046875,
+        "right": 1297.109375,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 1016.046875,
+        "right": 1297.109375,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 1016.046875,
+        "right": 1297.109375,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 1345.109375,
+        "right": 1525,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 1345.109375,
+        "right": 1525,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 1345.109375,
+        "right": 1525,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 1345.109375,
+        "right": 1525,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 1451.109375,
+        "right": 1615,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "links": [
+      {
+        "href": "https://www.instagram.com/",
+        "left": 296,
+        "right": 332,
+        "text": ""
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "left": 342,
+        "right": 378,
+        "text": ""
+      },
+      {
+        "href": "https://www.youtube.com/",
+        "left": 388,
+        "right": 424,
+        "text": ""
+      },
+      {
+        "href": "https://x.com/",
+        "left": 434,
+        "right": 470,
+        "text": ""
+      },
+      {
+        "href": "/about",
+        "left": 674.859375,
+        "right": 851.328125,
+        "text": "About"
+      },
+      {
+        "href": "/academy",
+        "left": 674.859375,
+        "right": 851.328125,
+        "text": "Academy"
+      },
+      {
+        "href": "/team",
+        "left": 674.859375,
+        "right": 851.328125,
+        "text": "Team"
+      },
+      {
+        "href": "/reviews",
+        "left": 674.859375,
+        "right": 851.328125,
+        "text": "Reviews"
+      },
+      {
+        "href": "/events",
+        "left": 899.328125,
+        "right": 1075.796875,
+        "text": "Events"
+      },
+      {
+        "href": "/courses",
+        "left": 899.328125,
+        "right": 1075.796875,
+        "text": "Courses"
+      },
+      {
+        "href": "mailto:singh@singhacademy.com",
+        "left": 1123.796875,
+        "right": 1399.53125,
+        "text": "singh@singhacademy.com"
+      },
+      {
+        "href": "tel:+15593081249",
+        "left": 1123.796875,
+        "right": 1399.53125,
+        "text": "+1 (559) 308 1249"
+      },
+      {
+        "href": "https://www.google.com/maps/search/?api=1&query=By%20appointment%20%C2%B7%20USA",
+        "left": 1123.796875,
+        "right": 1399.53125,
+        "text": "By appointment \u00b7 USA"
+      },
+      {
+        "href": "/login",
+        "left": 1447.53125,
+        "right": 1623.984375,
+        "text": "Sign In"
+      },
+      {
+        "href": "/register",
+        "left": 1447.53125,
+        "right": 1623.984375,
+        "text": "Get Started"
+      },
+      {
+        "href": "/terms",
+        "left": 1447.53125,
+        "right": 1623.984375,
+        "text": "Terms"
+      },
+      {
+        "href": "/privacy",
+        "left": 1447.53125,
+        "right": 1623.984375,
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.coffecodehub.com/",
+        "left": 1660.109375,
+        "right": 1824,
+        "text": "Developed by coffeeCODEhub"
+      }
+    ],
+    "ok": true
+  }
+]

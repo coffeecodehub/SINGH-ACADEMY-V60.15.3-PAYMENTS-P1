@@ -1,0 +1,8 @@
+{
+  "kind": "isolated native Chromium, actual JSX/CSS plus controlled DOM bridge; not Next",
+  "browser": "144.0.7559.96",
+  "originalReproductions": [],
+  "cases": [],
+  "passed": false,
+  "error": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:44577/team-1.html\nCall log:\n  - navigating to \"http://127.0.0.1:44577/team-1.html\", waiting until \"load\"\n\n    at /mnt/data/v60133_native/run-native.mjs:27:14"
+}

@@ -1,0 +1,23 @@
+{
+  "baseline": "Singh-Academy-V60.13.2.zip",
+  "version": "60.13.3",
+  "baselineFiles": 1196,
+  "byteUnchangedFiles": 1189,
+  "changedBaselineFiles": [
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx",
+    "frontend/package.json",
+    "frontend/ui-tests/player-preview-v60-13-2.spec.ts",
+    "package.json"
+  ],
+  "missingBaselineFiles": [],
+  "productionDifferencesAreVersionLabelsOnly": true,
+  "stylesWholeFileUnchanged": true,
+  "playerAndPreviewProductionComponentsUnchanged": true,
+  "allOtherBrowserFilesUnchanged": true,
+  "firstThreePlayerCasesUnchanged": true,
+  "browserDeclarationsRetained": 59,
+  "newControlledTests": 27
+}

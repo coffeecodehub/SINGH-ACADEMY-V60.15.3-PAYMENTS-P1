@@ -1,0 +1,85 @@
+{
+  "version": "60.15.3",
+  "node": "24.18.0",
+  "recordedAt": "2026-10-15T21:48:45.532Z",
+  "status": "passed",
+  "scope": "Installed Sharp/native-library identity and raster smoke; not an online vulnerability scan",
+  "checks": [
+    {
+      "scope": "backend",
+      "package": "node_modules/sharp",
+      "sharp": "0.35.5",
+      "vips": "8.18.7",
+      "rsvg": "2.63.2",
+      "svgEnabled": true,
+      "transforms": [
+        {
+          "input": "png",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "jpeg",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "webp",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "gif",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        }
+      ]
+    },
+    {
+      "scope": "frontend",
+      "package": "node_modules/sharp",
+      "sharp": "0.35.5",
+      "vips": "8.18.7",
+      "rsvg": "2.63.2",
+      "svgEnabled": true,
+      "transforms": [
+        {
+          "input": "png",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "jpeg",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "webp",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        },
+        {
+          "input": "gif",
+          "output": "webp",
+          "width": 64,
+          "height": 36,
+          "bytes": 82
+        }
+      ]
+    }
+  ]
+}

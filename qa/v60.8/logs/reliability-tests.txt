@@ -1,0 +1,320 @@
+
+> singh-academy@60.8.0 test:reliability
+> node --test frontend/test/*.test.mjs
+
+TAP version 13
+# Subtest: API defaults to same-origin /api instead of a visitor localhost
+ok 1 - API defaults to same-origin /api instead of a visitor localhost
+  ---
+  duration_ms: 138.161346
+  type: 'test'
+  ...
+# Subtest: transient GET failure retries once without expiring session
+ok 2 - transient GET failure retries once without expiring session
+  ---
+  duration_ms: 415.07231
+  type: 'test'
+  ...
+# Subtest: long Retry-After is respected without hammering the backend
+ok 3 - long Retry-After is respected without hammering the backend
+  ---
+  duration_ms: 35.287904
+  type: 'test'
+  ...
+# Subtest: only recognized SESSION_REQUIRED requests a session recheck
+ok 4 - only recognized SESSION_REQUIRED requests a session recheck
+  ---
+  duration_ms: 26.684779
+  type: 'test'
+  ...
+# Subtest: provider/password 401 does not clear the student session
+ok 5 - provider/password 401 does not clear the student session
+  ---
+  duration_ms: 26.989818
+  type: 'test'
+  ...
+# Subtest: mutating checkout is never automatically retried
+ok 6 - mutating checkout is never automatically retried
+  ---
+  duration_ms: 16.642895
+  type: 'test'
+  ...
+# Subtest: shared public request survives one subscriber abort
+ok 7 - shared public request survives one subscriber abort
+  ---
+  duration_ms: 18.520374
+  type: 'test'
+  ...
+# Subtest: only public data is reused; private progress is read per request
+ok 8 - only public data is reused; private progress is read per request
+  ---
+  duration_ms: 16.50535
+  type: 'test'
+  ...
+# Subtest: caller cancellation remains AbortError, not a fabricated timeout
+ok 9 - caller cancellation remains AbortError, not a fabricated timeout
+  ---
+  duration_ms: 15.580517
+  type: 'test'
+  ...
+# Subtest: stale 401 from before a new login cannot invalidate that account
+ok 10 - stale 401 from before a new login cannot invalidate that account
+  ---
+  duration_ms: 24.121746
+  type: 'test'
+  ...
+# Subtest: public fetch omits credentials while private fetch includes HttpOnly cookies
+ok 11 - public fetch omits credentials while private fetch includes HttpOnly cookies
+  ---
+  duration_ms: 19.239053
+  type: 'test'
+  ...
+# Subtest: invalid upstream HTML is not converted into empty JSON success
+ok 12 - invalid upstream HTML is not converted into empty JSON success
+  ---
+  duration_ms: 402.315481
+  type: 'test'
+  ...
+# Subtest: successful logout fences cached session replies across reloads until credentials login
+ok 13 - successful logout fences cached session replies across reloads until credentials login
+  ---
+  duration_ms: 20.841232
+  type: 'test'
+  ...
+# Subtest: late successful private response from before logout cannot expose old billing
+ok 14 - late successful private response from before logout cannot expose old billing
+  ---
+  duration_ms: 18.871746
+  type: 'test'
+  ...
+# Subtest: in-flight credentials login cannot undo a newer explicit logout
+ok 15 - in-flight credentials login cannot undo a newer explicit logout
+  ---
+  duration_ms: 15.899571
+  type: 'test'
+  ...
+# Subtest: logout fence does not hide public reviews or public payment methods
+ok 16 - logout fence does not hide public reviews or public payment methods
+  ---
+  duration_ms: 14.716874
+  type: 'test'
+  ...
+# Subtest: failed explicit logout does not restore browser identity and can be retried
+ok 17 - failed explicit logout does not restore browser identity and can be retried
+  ---
+  duration_ms: 17.377437
+  type: 'test'
+  ...
+# Subtest: explicit new login waits for pending logout cookie expiration before it sends credentials
+ok 18 - explicit new login waits for pending logout cookie expiration before it sends credentials
+  ---
+  duration_ms: 14.986334
+  type: 'test'
+  ...
+# Subtest: simultaneous logout clicks share a single revocation request
+ok 19 - simultaneous logout clicks share a single revocation request
+  ---
+  duration_ms: 15.475205
+  type: 'test'
+  ...
+# Subtest: verified student remains signed in after transient session 503
+ok 20 - verified student remains signed in after transient session 503
+  ---
+  duration_ms: 145.210643
+  type: 'test'
+  ...
+# Subtest: initial session failure stays unresolved rather than redirecting as an anonymous user
+ok 21 - initial session failure stays unresolved rather than redirecting as an anonymous user
+  ---
+  duration_ms: 59.645621
+  type: 'test'
+  ...
+# Subtest: identical session refresh preserves user object identity and therefore learning draft dependencies
+ok 22 - identical session refresh preserves user object identity and therefore learning draft dependencies
+  ---
+  duration_ms: 31.285709
+  type: 'test'
+  ...
+# Subtest: confirmed anonymous session actually clears expired authentication
+ok 23 - confirmed anonymous session actually clears expired authentication
+  ---
+  duration_ms: 27.899388
+  type: 'test'
+  ...
+# Subtest: old anonymous response cannot overwrite a later successful login
+ok 24 - old anonymous response cannot overwrite a later successful login
+  ---
+  duration_ms: 26.140505
+  type: 'test'
+  ...
+# Subtest: failed explicit logout hides local identity and reports that server revocation needs retry
+ok 25 - failed explicit logout hides local identity and reports that server revocation needs retry
+  ---
+  duration_ms: 18.694913
+  type: 'test'
+  ...
+# Subtest: switching portals never reuses a student identity for client admin
+ok 26 - switching portals never reuses a student identity for client admin
+  ---
+  duration_ms: 15.276295
+  type: 'test'
+  ...
+# Subtest: changing verified accounts remounts private descendants under a different owner key
+ok 27 - changing verified accounts remounts private descendants under a different owner key
+  ---
+  duration_ms: 16.823553
+  type: 'test'
+  ...
+# Subtest: duplicate unauthorized notifications share one session revalidation
+ok 28 - duplicate unauthorized notifications share one session revalidation
+  ---
+  duration_ms: 13.840913
+  type: 'test'
+  ...
+# Subtest: successful logout survives pageshow, focus and manual session refresh
+ok 29 - successful logout survives pageshow, focus and manual session refresh
+  ---
+  duration_ms: 15.262234
+  type: 'test'
+  ...
+# Subtest: old session GET finishing after logout cannot bring the student back
+ok 30 - old session GET finishing after logout cannot bring the student back
+  ---
+  duration_ms: 14.94991
+  type: 'test'
+  ...
+# Subtest: storage logout from another tab clears current account immediately
+ok 31 - storage logout from another tab clears current account immediately
+  ---
+  duration_ms: 26.131502
+  type: 'test'
+  ...
+# Subtest: actual explicit sign-in after logout restores the newly authenticated account
+ok 32 - actual explicit sign-in after logout restores the newly authenticated account
+  ---
+  duration_ms: 13.192979
+  type: 'test'
+  ...
+# Subtest: student logout boundary does not sign out a separately authenticated admin
+ok 33 - student logout boundary does not sign out a separately authenticated admin
+  ---
+  duration_ms: 12.9308
+  type: 'test'
+  ...
+# Subtest: late student logout response cannot replace a separately opened admin session
+ok 34 - late student logout response cannot replace a separately opened admin session
+  ---
+  duration_ms: 13.338586
+  type: 'test'
+  ...
+# Subtest: logout success cannot clear a newer explicitly authenticated identity
+ok 35 - logout success cannot clear a newer explicitly authenticated identity
+  ---
+  duration_ms: 13.120242
+  type: 'test'
+  ...
+# Subtest: local smoke permits HTTP only with explicit flag and two loopback targets
+ok 36 - local smoke permits HTTP only with explicit flag and two loopback targets
+  ---
+  duration_ms: 1.196798
+  type: 'test'
+  ...
+# Subtest: local smoke option cannot downgrade public or LAN targets to HTTP
+ok 37 - local smoke option cannot downgrade public or LAN targets to HTTP
+  ---
+  duration_ms: 0.228249
+  type: 'test'
+  ...
+# Subtest: deployed smoke targets require origin-only URLs without embedded credentials
+ok 38 - deployed smoke targets require origin-only URLs without embedded credentials
+  ---
+  duration_ms: 0.227718
+  type: 'test'
+  ...
+# Subtest: free courses show Start instead of Open/Purchase, even for active members
+ok 39 - free courses show Start instead of Open/Purchase, even for active members
+  ---
+  duration_ms: 0.75427
+  type: 'test'
+  ...
+# Subtest: paid course and membership states keep their existing labels
+ok 40 - paid course and membership states keep their existing labels
+  ---
+  duration_ms: 0.117554
+  type: 'test'
+  ...
+# Subtest: free-course click takes the enrollment path before paid-access or checkout requests
+ok 41 - free-course click takes the enrollment path before paid-access or checkout requests
+  ---
+  duration_ms: 0.26247
+  type: 'test'
+  ...
+# Subtest: proxy refuses missing, self-referencing and non-origin upstream settings
+ok 42 - proxy refuses missing, self-referencing and non-origin upstream settings
+  ---
+  duration_ms: 0.990361
+  type: 'test'
+  ...
+# Subtest: proxy resolves target at runtime and forbids upstream redirects
+ok 43 - proxy resolves target at runtime and forbids upstream redirects
+  ---
+  duration_ms: 3.901136
+  type: 'test'
+  ...
+# Subtest: proxy forwards cookies and portal, discards client host/IP spoof headers
+ok 44 - proxy forwards cookies and portal, discards client host/IP spoof headers
+  ---
+  duration_ms: 1.126323
+  type: 'test'
+  ...
+# Subtest: proxy preserves separate Set-Cookie headers, makes Academy cookies host-only, never CDN caches
+ok 45 - proxy preserves separate Set-Cookie headers, makes Academy cookies host-only, never CDN caches
+  ---
+  duration_ms: 0.912125
+  type: 'test'
+  ...
+# Subtest: upstream failure remains error, never successful anonymous session
+ok 46 - upstream failure remains error, never successful anonymous session
+  ---
+  duration_ms: 0.697627
+  type: 'test'
+  ...
+# Subtest: JSON error status passes through with request identity
+ok 47 - JSON error status passes through with request identity
+  ---
+  duration_ms: 0.777015
+  type: 'test'
+  ...
+# Subtest: raw webhook payload streams byte-for-byte through real HTTP upstream
+ok 48 - raw webhook payload streams byte-for-byte through real HTTP upstream
+  ---
+  duration_ms: 27.397192
+  type: 'test'
+  ...
+# Subtest: encoded traversal cannot escape the fixed /api namespace
+ok 49 - encoded traversal cannot escape the fixed /api namespace
+  ---
+  duration_ms: 0.449207
+  type: 'test'
+  ...
+# Subtest: range and binary response metadata survive without buffering/corrupting media
+ok 50 - range and binary response metadata survive without buffering/corrupting media
+  ---
+  duration_ms: 1.505948
+  type: 'test'
+  ...
+# Subtest: loopback HTTP exception is confined to explicit local test requests, not hosted review
+ok 51 - loopback HTTP exception is confined to explicit local test requests, not hosted review
+  ---
+  duration_ms: 0.66641
+  type: 'test'
+  ...
+1..51
+# tests 51
+# suites 0
+# pass 51
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1475.489289

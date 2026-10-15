@@ -1,0 +1,258 @@
+{
+  "scope": "isolated native data-image decoding only; HTTP navigation blocked; not Next/React E2E",
+  "browser": "144.0.7559.96",
+  "comparisons": [
+    {
+      "case": "V60.13 one pixel / src only",
+      "decoded": true,
+      "naturalWidth": 1,
+      "naturalHeight": 1,
+      "complete": true,
+      "event": "load"
+    },
+    {
+      "case": "V60.13 one pixel / declared 480w",
+      "decoded": true,
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "complete": true,
+      "event": "load"
+    },
+    {
+      "case": "V60.13.1 actual 480px / declared 480w",
+      "decoded": true,
+      "naturalWidth": 347,
+      "naturalHeight": 195,
+      "complete": true,
+      "event": "load"
+    }
+  ],
+  "plain": [
+    {
+      "requestedWidth": 240,
+      "width": 240,
+      "height": 135,
+      "passed": true
+    },
+    {
+      "requestedWidth": 480,
+      "width": 480,
+      "height": 270,
+      "passed": true
+    },
+    {
+      "requestedWidth": 720,
+      "width": 720,
+      "height": 405,
+      "passed": true
+    },
+    {
+      "requestedWidth": 1080,
+      "width": 1080,
+      "height": 608,
+      "passed": true
+    },
+    {
+      "requestedWidth": 1600,
+      "width": 1600,
+      "height": 900,
+      "passed": true
+    }
+  ],
+  "responsive": [
+    {
+      "kind": "course",
+      "viewport": 375,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 318,
+      "naturalHeight": 179,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 375,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 287,
+      "naturalHeight": 161,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 375,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 318,
+      "naturalHeight": 179,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 375,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 287,
+      "naturalHeight": 161,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 768,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 337,
+      "naturalHeight": 190,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 768,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 322,
+      "naturalHeight": 181,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 768,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 337,
+      "naturalHeight": 190,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 768,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 322,
+      "naturalHeight": 181,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 1200,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 348,
+      "naturalHeight": 195,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 1200,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 252,
+      "naturalHeight": 141,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 1200,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 348,
+      "naturalHeight": 195,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 1200,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 252,
+      "naturalHeight": 141,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 1897,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 550,
+      "naturalHeight": 309,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 1897,
+      "dpr": 1,
+      "complete": true,
+      "naturalWidth": 398,
+      "naturalHeight": 224,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "course",
+      "viewport": 1897,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 550,
+      "naturalHeight": 309,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    },
+    {
+      "kind": "team",
+      "viewport": 1897,
+      "dpr": 2,
+      "complete": true,
+      "naturalWidth": 398,
+      "naturalHeight": 224,
+      "selectedWidth": 1600,
+      "bitmapWidth": 1600,
+      "bitmapHeight": 900,
+      "passed": true
+    }
+  ],
+  "passedChecks": 21,
+  "failedChecks": 0
+}

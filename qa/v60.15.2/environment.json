@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-06T20:37:07.642781+00:00",
+  "scope": "Execution environment diagnostics; not application clearance",
+  "commands": [
+    {
+      "command": [
+        "node",
+        "--version"
+      ],
+      "exitCode": 0,
+      "stdout": "v22.16.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "npm",
+        "--version"
+      ],
+      "exitCode": 0,
+      "stdout": "10.9.2\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "--version"
+      ],
+      "notExecuted": "[Errno 2] No such file or directory: 'docker'"
+    },
+    {
+      "command": [
+        "npm",
+        "ping",
+        "--fetch-retries=0",
+        "--fetch-timeout=8000"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "npm notice PING https://registry.npmjs.org/\nnpm error code EAI_AGAIN\nnpm error syscall getaddrinfo\nnpm error errno EAI_AGAIN\nnpm error request to https://registry.npmjs.org/-/ping failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\nnpm error A complete log of this run can be found in: /home/oai/.npm/_logs/2026-10-06T20_37_07_867Z-debug-0.log\n"
+    }
+  ]
+}

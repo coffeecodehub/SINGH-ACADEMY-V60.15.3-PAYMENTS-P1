@@ -1,0 +1,2 @@
+Header fixtures written: /mnt/data/v6011_work/SINGH-ACADEMY-V60.11-COMPLETE/qa/v60.11/header-browser/header-fixtures
+144 actual-header/CSS Chromium fixtures: 144 pass, 0 fail

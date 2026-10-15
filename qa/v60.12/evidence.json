@@ -1,0 +1,26 @@
+{
+  "version": "60.12.0",
+  "checkedAt": "2026-10-04T05:48:02.007425+00:00",
+  "node": "v22.16.0",
+  "backend": {
+    "passed": 834,
+    "failed": 0,
+    "scope": "unit/model/provider doubles"
+  },
+  "frontend": {
+    "passed": 319,
+    "failed": 0,
+    "scope": "controlled hooks and fixture HTTP; not full Next/browser"
+  },
+  "fixtureHttpSubset": 11,
+  "workflowSubset": 30,
+  "protectedFiles": 284,
+  "unexpectedProtectedDifferences": 0,
+  "browserCasesDeclared": 41,
+  "browserCasesExecuted": 0,
+  "fullNextBuild": "blocked: Next dependency unavailable",
+  "fullVerify": "blocked: missing dependency lockfiles; guard retained",
+  "freshAudit": "not executed: registry DNS unavailable",
+  "realProviderPayments": "not executed",
+  "actualInboxDelivery": "not executed"
+}

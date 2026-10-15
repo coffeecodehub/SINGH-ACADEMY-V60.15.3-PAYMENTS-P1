@@ -1,0 +1,15 @@
+{
+  "version": "60.15.0",
+  "startedAt": "2026-10-06T18:09:19.185Z",
+  "status": "failed",
+  "scope": "Isolated real MongoDB transactions and DB-backed browser tests. Provider/SMTP fixtures are not external acceptance.",
+  "handoverReady": false,
+  "checks": [
+    {
+      "name": "Docker availability",
+      "status": "failed",
+      "error": "Docker command failed. Install/start Docker Desktop, ensure port 27018 is free, and inspect the error. Production database was not used."
+    }
+  ],
+  "finishedAt": "2026-10-06T18:09:19.188Z"
+}

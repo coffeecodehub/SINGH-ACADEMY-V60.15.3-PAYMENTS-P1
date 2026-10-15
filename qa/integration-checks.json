@@ -1,0 +1,38 @@
+{
+  "version": "60.15.3",
+  "startedAt": "2026-10-10T10:55:57.533Z",
+  "status": "passed",
+  "scope": "Isolated real MongoDB transactions and DB-backed browser tests. Provider/SMTP fixtures are not external acceptance.",
+  "handoverReady": false,
+  "checks": [
+    {
+      "name": "Payment schema/fixture contracts (no database)",
+      "status": "passed"
+    },
+    {
+      "name": "Docker availability",
+      "status": "passed"
+    },
+    {
+      "name": "Start isolated test MongoDB",
+      "status": "passed"
+    },
+    {
+      "name": "Replica set and actual data filesystem",
+      "status": "passed"
+    },
+    {
+      "name": "Real backend HTTP/transaction tests",
+      "status": "passed"
+    },
+    {
+      "name": "Install project Chromium",
+      "status": "passed"
+    },
+    {
+      "name": "DB-backed browser checks",
+      "status": "passed"
+    }
+  ],
+  "finishedAt": "2026-10-10T10:57:44.959Z"
+}

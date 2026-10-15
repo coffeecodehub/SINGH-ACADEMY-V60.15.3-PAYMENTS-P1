@@ -1,0 +1,94 @@
+{
+  "backend": {
+    "tests": 1085,
+    "pass": 1085,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "frontend_reliability": {
+    "tests": 516,
+    "pass": 516,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "runtime": {
+    "tests": 138,
+    "pass": 138,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "contract": {
+    "tests": 14,
+    "pass": 14,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "new_payment_regressions": {
+    "tests": 50,
+    "pass": 50,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "typescript": {
+    "exit_code": 0,
+    "scope": "Full frontend tsc --noEmit; no production build claim"
+  },
+  "source_syntax_imports": {
+    "frontend_ts_tsx": 135,
+    "backend_js": 205,
+    "relative_frontend_imports": 333,
+    "errors": 0
+  },
+  "frontend_preservation": {
+    "files": 451,
+    "changed": 0
+  },
+  "source_export_matches_zip": {
+    "source_blocks": 426,
+    "matched": 426
+  },
+  "interactive_wizard": {
+    "status": "passed",
+    "credentialValues": "synthetic and intentionally invalid",
+    "interactivePrompts": 6,
+    "noSecretEcho": true,
+    "envFileUnchanged": true,
+    "localValidationRefusedBeforeProviderAuthentication": true,
+    "productionChanged": false,
+    "commandExitCode": 1
+  },
+  "next_production_build": {
+    "status": "blocked",
+    "exit_code": 1,
+    "reason": "Linux Next SWC not installed in supplied Windows dependencies; registry.npmjs.org lookup failed with EAI_AGAIN"
+  },
+  "fresh_dependency_install_and_audit": {
+    "status": "not_executed",
+    "reason": "npm registry DNS unavailable; existing supplied dependencies used for offline checks"
+  },
+  "real_provider_authentication": {
+    "status": "not_executed"
+  },
+  "real_signed_webhook_delivery": {
+    "status": "not_executed"
+  },
+  "real_atlas_transactions": {
+    "status": "not_executed"
+  },
+  "real_email_delivery": {
+    "status": "not_executed"
+  },
+  "live_checkout_activation": {
+    "status": "not_performed"
+  }
+}

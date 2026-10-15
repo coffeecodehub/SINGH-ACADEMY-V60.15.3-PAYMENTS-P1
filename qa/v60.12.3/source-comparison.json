@@ -1,0 +1,50 @@
+{
+  "comparison": "Supplied V60.12.2 ZIP against updated source",
+  "changedExisting": [
+    "README.md",
+    "package.json",
+    "frontend/package.json",
+    "backend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/ui-tests/logout-free-tablet.spec.ts",
+    "frontend/ui-tests/helpers/signed-out-page.ts",
+    "frontend/components/business/BusinessPortal.tsx"
+  ],
+  "added": [
+    "V60.12.3-CHANGED-FILES.md",
+    "V60.12.3-LOCAL-GUIDE.md",
+    "V60.12.3-QA-REPORT.md",
+    "frontend/test/v60-12-3-guest-observer.test.mjs",
+    "frontend/ui-tests/guest-observer-v60-12-3.spec.ts",
+    "frontend/ui-tests/helpers/signed-out-snapshot.mjs",
+    "frontend/ui-tests/helpers/signed-out-snapshot.d.mts",
+    "qa/v60.12.3/preserved-ui.log",
+    "qa/v60.12.3/chromium-dom-only.json",
+    "qa/v60.12.3/controlled-chromium-observer.json",
+    "qa/v60.12.3/backend-tests.log",
+    "qa/v60.12.3/source-check.log",
+    "qa/v60.12.3/guest-observer-unit.log",
+    "qa/v60.12.3/dependency-install-attempt.log",
+    "qa/v60.12.3/focused-types-diagnostic.log",
+    "qa/v60.12.3/source-comparison.json",
+    "qa/v60.12.3/frontend-controlled-tests.log",
+    "qa/v60.12.3/runtime-tests.log"
+  ],
+  "removed": [],
+  "unchangedProductionFileCount": 527,
+  "productionLogicUnchanged": true,
+  "metadataOnlyFiles": [
+    "package.json",
+    "backend/package.json",
+    "frontend/package.json",
+    "backend/src/app.js",
+    "backend/src/server.js",
+    "frontend/components/business/BusinessPortal.tsx"
+  ],
+  "forbiddenTests": {
+    "skipAdded": false,
+    "timeoutsRaised": false,
+    "firstNthUsed": false
+  }
+}

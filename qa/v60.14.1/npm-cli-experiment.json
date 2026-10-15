@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-10-06T15:57:20.353Z",
+  "node": "v22.16.0",
+  "scope": "Actual npm CLI with synthetic packages from isolated loopback registry. Tests lock refresh/override/npm-ci behavior, NOT official Sharp, native image processing or a vulnerability scan.",
+  "status": "passed",
+  "checks": [
+    {
+      "scope": "backend",
+      "check": "npm lock-only migration and unrelated resolution preservation",
+      "status": "passed"
+    },
+    {
+      "scope": "backend",
+      "check": "npm ci installs updated fixture version",
+      "status": "passed"
+    },
+    {
+      "scope": "frontend",
+      "check": "npm lock-only migration and unrelated resolution preservation",
+      "status": "passed"
+    },
+    {
+      "scope": "frontend",
+      "check": "npm ci installs updated fixture version",
+      "status": "passed"
+    },
+    {
+      "check": "second invocation is idempotent",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "backend/src/assets/certificate-logo-original.alpha.deflate": {
+    "sha256": "d8464cc292e9e2f7e1f795591119895e23f7d3e4bb141829694eeadf53eee680",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-logo-original.json": {
+    "sha256": "f0edc50bb2a8e834f46d24cbd27117a731369bc9c2a3f7d202c01c9e33a325f0",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-logo-original.png": {
+    "sha256": "fbfcc3260a9d4784703e4c7be03f2b440224383cdb5c888a572a93defbb886d0",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-logo-original.rgb.deflate": {
+    "sha256": "72d732f7d629c50362bbad7964c4ed6bb447f9f9b0ce91424a942217786ac7bf",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-logo.jpg": {
+    "sha256": "58d9006d208fc2a060220c83fc9b31b1ff431b3c24603e8573349c58667ddfdb",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-logo.json": {
+    "sha256": "826d694e96bd7b91ae54484aa0001f9431d80422905493a21e4969ff9a28e591",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-signature.alpha.deflate": {
+    "sha256": "47a46b25caf571ff970619e8736465918f14579ece9197487c52b0147c8cb66b",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-signature.json": {
+    "sha256": "1e0decaef0f2a4e352c6a9b5fbc2846cdc5c63da240db9ed711de539c592d89e",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-signature.png": {
+    "sha256": "94f1226a2a520c79370e839e0c367c105265a52351fd8e7e869efa959fe39418",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-signature.rgb.deflate": {
+    "sha256": "1a3e1a3b429270fe6a6e3ecb67e54fe8f006e000f54cd327cbff26c017d493ee",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-theme-font-metrics.json": {
+    "sha256": "a13d371c2256a76e9e293c3e00c1c6233dce4d5da45ced90b6ffa784c03fb8a7",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-theme-v608.json": {
+    "sha256": "502f6d1eec79690ea09e9c4545cc8a3a4e691b5cc555072eb2ec9bfc46879686",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-theme-v608.png": {
+    "sha256": "9c89dc958ab60500526dfc0689d1de8ba5f92e1fa19a095ee8446605a06afd20",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-theme-v608.rgb.deflate": {
+    "sha256": "a60b44596bd9133ad4454acc69d474b572c582007d459b6bb272ef700e536ca5",
+    "matches_v60_9": true
+  },
+  "backend/src/assets/certificate-widths.json": {
+    "sha256": "4021bfe524f52ff4aa8e958a9c984233f5464a3f645d8ca833e22fc548af2569",
+    "matches_v60_9": true
+  },
+  "backend/src/services/certificatePdf.js": {
+    "sha256": "4d7aef9f2f87c69cfd4527f473e9459d406e99090cd111162b3f282d13e44034",
+    "matches_v60_9": true
+  }
+}

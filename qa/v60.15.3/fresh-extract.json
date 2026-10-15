@@ -1,0 +1,31 @@
+{
+  "version": "60.15.3",
+  "archiveFileCount": 1369,
+  "archiveSha256BeforeEvidenceAppend": "522a2ea73b7872dd825cb8ad1982fd864d77d0f5b642f05ddefb6c64acea9dab",
+  "freshExtractionComparedWithArchive": true,
+  "unexpectedChangedPackagedFiles": [],
+  "node": "22.16.0",
+  "executed": {
+    "backend": {
+      "passed": 1035,
+      "failed": 0
+    },
+    "frontendControlled": {
+      "passed": 516,
+      "failed": 0
+    },
+    "tooling": {
+      "passed": 138,
+      "failed": 0
+    },
+    "protectedFiles": {
+      "checked": 284,
+      "unexpectedDifferences": 0
+    },
+    "sourceSyntaxImports": {
+      "errors": 0
+    }
+  },
+  "handoverReady": false,
+  "scope": "Archive integrity + controlled checks only; no full build/audit/MongoDB/actual provider acceptance"
+}
